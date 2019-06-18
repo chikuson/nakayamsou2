@@ -27,7 +27,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="water"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="aYe-51-ggj" kind="show" id="ePg-WS-DjG"/>
+                                    <segue destination="t9x-Sr-lmm" kind="show" id="s9N-uy-N8e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n74-fh-ZDS">
@@ -97,15 +97,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fef-PN-Vbe">
                                 <rect key="frame" x="287" y="524" width="107" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="90878a3b0d7c1854c26b4e62769891eb_w"/>
+                                <state key="normal" title="Button" image="起業"/>
+                                <connections>
+                                    <segue destination="zwD-Tz-jt0" kind="show" id="hjN-IQ-veQ"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="わくわく情報ランド" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSd-UQ-vBq">
-                                <rect key="frame" x="255" y="610" width="156" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2019-06-17 15.00.46" translatesAutoresizingMaskIntoConstraints="NO" id="kWU-TZ-Xx8">
                                 <rect key="frame" x="50" y="643" width="314" height="170"/>
                                 <constraints>
@@ -148,6 +144,13 @@
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="お問い合わせ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2v6-4u-IJO">
                                 <rect key="frame" x="28" y="595" width="104" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="起業志民Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSd-UQ-vBq">
+                                <rect key="frame" x="278" y="610" width="124" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -326,6 +329,243 @@
             </objects>
             <point key="canvasLocation" x="3460.8695652173915" y="-1206.0267857142856"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="ilh-ao-XF1">
+            <objects>
+                <tableViewController id="zwD-Tz-jt0" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xUP-m4-1dx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="yv7-qj-HOC">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="7bE-sk-IK1">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7bE-sk-IK1" id="4JG-Up-ITp">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XF6-rb-ruK">
+                                                    <rect key="frame" x="131" y="6" width="153" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="◆ハウスルール総則◆"/>
+                                                    <connections>
+                                                        <segue destination="hoa-PS-qLx" kind="show" id="qrO-dk-2g1"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8Cw-Bo-jyL">
+                                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8Cw-Bo-jyL" id="KzD-KU-unk">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qY9-Wo-Sn7">
+                                                    <rect key="frame" x="123" y="6" width="169" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="◆起業家支援センター◆"/>
+                                                    <connections>
+                                                        <segue destination="dS9-v1-Xe6" kind="show" id="LUz-6S-dor"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="70H-TN-KLE">
+                                        <rect key="frame" x="0.0" y="88" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="70H-TN-KLE" id="zYa-v5-q5u">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UkG-Bl-vM3">
+                                                    <rect key="frame" x="154" y="11" width="108" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="◆なかやま荘◆"/>
+                                                    <connections>
+                                                        <segue destination="o2D-ac-ogf" kind="show" id="p8O-kp-fp7"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="5fk-5q-gu3">
+                                        <rect key="frame" x="0.0" y="132" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5fk-5q-gu3" id="aDT-1U-h0B">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZVZ-I3-kwR">
+                                        <rect key="frame" x="0.0" y="176" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZVZ-I3-kwR" id="Cxg-Qt-1Ww">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="zwD-Tz-jt0" id="x0y-U2-qqO"/>
+                            <outlet property="delegate" destination="zwD-Tz-jt0" id="WD8-zg-1rM"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ooy-Q3-OJD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4977" y="747"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xYb-H0-X7y">
+            <objects>
+                <viewController id="o2D-ac-ogf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9wB-ep-w2U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AlC-dR-cU2">
+                                <rect key="frame" x="20" y="210" width="374" height="652"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">◆入浴可能時間 　午前10時から翌日午前8時 　(午前8時から午前10時は清掃時間) 　シャンプー、リンス、ボディソープ常備  ◆洗濯 　洗濯機2台、乾燥機1台  ◆自動販売機系3機
+
+◆売店
+　アイス・牛乳・コーヒー牛乳
+　お菓子・カップラーメン
+
+◆注意事項
+　ケトル(湯沸かし)以外の調理器具は異様禁止
+　近隣の飲食店で食べるか、惣菜やお湯で出来る食料を買っておくと良い
+　支援センターの近くに『薬王堂』『マックスバリュー』があるので
+　車所持者と一緒に買い出しして、ある程度備蓄しておく事をオススメ
+　※冷蔵庫もないので、常温保存出来るもの
+
+◆睡眠
+　共同生活の為、いびきをかく人はブリーズライト等のいびき改善グッズを用意
+　慣れない環境なので、お互いの気遣いは必須
+
+◆イベント
+　毎週もしくは隔週水曜日の夜に地域でバスケットボールをするイベントがあるので
+　バッシュを持っている人は用意しておくと、参加した時に便利
+　その他、地域協力隊関連のイベントが多数</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gJT-fz-RjF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qsz-At-7ZD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6128" y="1870"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Wui-gd-1Ib">
+            <objects>
+                <viewController id="dS9-v1-Xe6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xfr-on-53b">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZsO-64-jyv">
+                                <rect key="frame" x="20" y="171" width="374" height="691"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">◆住所
+岩手県八幡平市大更35-62
+https://goo.gl/maps/cSydbUpGoD52
+
+◆場所　
+八幡平市役所西根総合支所３階(起業家支援センター)
+こちらはなんと、元・市議会議員の控室を勝手に占領した部屋ですw
+施設の入り方などは、↓のコメントを参照くださいませ。
+
+◆お車の方　
+自家用車の方は、駐車場内にテキトーに停めてください。
+隣接する市民センターの近くだと、出入りもしやすいので便利です。
+
+◆公共交通機関をご利用の方
+盛岡駅7：12発の平舘駅前行き岩手県北バスに乗車しますと
+8：05に「西根総合支所前」へ到着します。
+　
+JRをご利用の場合は、盛岡駅発6：55発の大館行き花輪線に乗車しますと
+7：35に「大更駅」に到着します。大更駅からは徒歩で20分位です。
+　
+最寄りのコンビニはセブンイレブンがありますが
+やや離れていますので、昼食などは会場に来られる前に
+ご用意頂くことをオススメします。
+　
+会場には、シェアオフィス利用者がこっそり置いてる
+電子レンジがありますので、節度を持って利用いただくことが可能です。
+あとは、公式に置いてる電気ポットがあります。
+　
+施設利用に関しては「汚さない」ことを大前提にご利用ください。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SYe-hF-7ta"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9IT-Ol-Xu8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6128" y="1167"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ypu-Ba-ciK">
+            <objects>
+                <viewController id="hoa-PS-qLx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ytL-0L-YBl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ccW-6Z-5fc">
+                                <rect key="frame" x="20" y="178" width="374" height="622"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">◆ハウスルール総則
+・本ルールを守れない人は即時退去とし、キャンプからも除名します。
+・故意、過失の別を問わず、現状復旧に経費が必要な状態になった場合は、応分の負担をいただきます。
+◆部屋の使用について
+・無料で滞在できていることを肝に銘じ、絶対に汚さないこと。汚した場合は責任を持って即時清掃すること。
+・室内での飲食は可としますが、飲酒・喫煙は厳禁とします。
+・部屋を汚した場合は、必ず本人が責任を持って清掃すること。
+・室内での歓談は構いませんが、室内で騒がないこと。特に夜9時以降は厳禁とします。
+・室内の引き戸などは、邪魔であっても決して外さないこと。
+・深夜0時で消灯とし、以降は決して作業をしないこと。
+◆共用部分について
+・他の利用者の迷惑にならないよう、洗濯物はすぐに回収すること。
+◆清掃およびゴミ出しについて
+・部屋ごとに全員で毎日清掃を行うこと。
+・清掃後は、必ず同室のメンバーの確認を得ること。
+・ゴミ出しは市の分別ルールを守るとともに、当番を決めて行うこと。
+◆郵便および宅配便について
+・荷物は、キャンプを実施する土日には決して到着することのないようにすること。
+
+過去のキャンプで、施設の他利用者から多数クレームを頂戴するなど、悪質な利用者が出ましたので、厳しいハウスルールを設けました。
+自分の軽率な行為により、次回以降スパルタキャンプが開催不能になる可能性もあることを肝に銘じて、施設を利用してください。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="yId-dW-cRQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JaF-6Z-ikt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6068" y="460"/>
+        </scene>
         <!--Number View Controller-->
         <scene sceneID="qbF-ml-Mpy">
             <objects>
@@ -346,13 +586,6 @@
                                 <rect key="frame" x="180" y="601" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPX-Si-wiK">
-                                <rect key="frame" x="168" y="263" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2Jj-IY-0Zx"/>
@@ -603,27 +836,48 @@
             <point key="canvasLocation" x="2122" y="416"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="tuW-rL-wHT">
+        <scene sceneID="BIb-gx-mFK">
             <objects>
-                <viewController id="aYe-51-ggj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Nn7-So-d3L">
+                <viewController id="t9x-Sr-lmm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="egS-ba-YpR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="風呂４" translatesAutoresizingMaskIntoConstraints="NO" id="x45-3W-cRv">
+                                <rect key="frame" x="20" y="101" width="374" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YVY-vQ-V5X">
+                                <rect key="frame" x="20" y="367" width="374" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">地下２千メートルから噴出した蒸気を温泉として利用してマグマの湯と言われている珍しい温泉です。   松川渓谷の上流にある地熱発電所から引いています。泉質は単純硫黄温泉で、無色無臭のクセのないお湯です。気軽にご利用になれる温泉で、ゆったりとした時間をお過ごし下さい。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="大浴場マグマの湯" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uuc-o3-4AE">
+                                <rect key="frame" x="20" y="321" width="366" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="風呂３" translatesAutoresizingMaskIntoConstraints="NO" id="7VE-Yr-mHQ">
+                                <rect key="frame" x="20" y="543" width="172" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="風呂２" translatesAutoresizingMaskIntoConstraints="NO" id="Yq8-84-Ivd">
+                                <rect key="frame" x="222" y="543" width="172" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="dwm-8k-EUt"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
-                            <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="net"/>
-                        </userDefinedRuntimeAttributes>
+                        <viewLayoutGuide key="safeArea" id="mvL-Dt-Uso"/>
                     </view>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
-                        <userDefinedRuntimeAttribute type="string" keyPath="heroModalAnimationTypeString" value="water"/>
-                    </userDefinedRuntimeAttributes>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yfj-Yv-VhZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u7h-2Q-jcb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4323" y="492"/>
+            <point key="canvasLocation" x="3137.68115942029" y="-102.45535714285714"/>
         </scene>
         <!--Tab View Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -903,5 +1157,9 @@
         <image name="スクリーンショット 2019-06-17 20.54.02" width="636" height="198"/>
         <image name="スクリーンショット 2019-06-17 9.48.05" width="868" height="728"/>
         <image name="スクリーンショット 2019-06-17 9.50.26" width="994" height="826"/>
+        <image name="起業" width="1912" height="1912"/>
+        <image name="風呂２" width="300" height="225"/>
+        <image name="風呂３" width="168" height="225"/>
+        <image name="風呂４" width="4032" height="3024"/>
     </resources>
 </document>
