@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0047CEBB22B277430064B349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0047CEBA22B277430064B349 /* AppDelegate.swift */; };
+		0047CEBD22B277430064B349 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0047CEBC22B277430064B349 /* FirstViewController.swift */; };
+		0047CEBF22B277430064B349 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0047CEBE22B277430064B349 /* SecondViewController.swift */; };
+		0047CEC222B277430064B349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0047CEC022B277430064B349 /* Main.storyboard */; };
+		0047CEC422B277450064B349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0047CEC322B277450064B349 /* Assets.xcassets */; };
+		0047CEC722B277450064B349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0047CEC522B277450064B349 /* LaunchScreen.storyboard */; };
+		0053B14B22B737DB007A1AD4 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053B14A22B737DB007A1AD4 /* TabViewController.swift */; };
+		00E0526622B68EDD0041D058 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0526522B68EDD0041D058 /* MainViewController.swift */; };
+		708F9D2703602763BE575E99 /* Pods_nakayamasou2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495C9A9251AEA635BCAAAA9B /* Pods_nakayamasou2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0047CEB722B277430064B349 /* nakayamasou2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nakayamasou2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0047CEBA22B277430064B349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0047CEBC22B277430064B349 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0047CEBE22B277430064B349 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0047CEC122B277430064B349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0047CEC322B277450064B349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0047CEC622B277450064B349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0047CEC822B277450064B349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0053B14A22B737DB007A1AD4 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		00E0526522B68EDD0041D058 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2CF187FF5661DD89942EB538 /* Pods-nakayamasou2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nakayamasou2.debug.xcconfig"; path = "Target Support Files/Pods-nakayamasou2/Pods-nakayamasou2.debug.xcconfig"; sourceTree = "<group>"; };
+		495C9A9251AEA635BCAAAA9B /* Pods_nakayamasou2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nakayamasou2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C4A25C43EC9B1F0E03DA8C /* Pods-nakayamasou2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nakayamasou2.release.xcconfig"; path = "Target Support Files/Pods-nakayamasou2/Pods-nakayamasou2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0047CEB422B277430064B349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708F9D2703602763BE575E99 /* Pods_nakayamasou2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0047CEAE22B277430064B349 = {
+			isa = PBXGroup;
+			children = (
+				0047CEB922B277430064B349 /* nakayamasou2 */,
+				0047CEB822B277430064B349 /* Products */,
+				3188D41249052AAC69F9E649 /* Pods */,
+				06C8B451CA174120223582E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0047CEB822B277430064B349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0047CEB722B277430064B349 /* nakayamasou2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0047CEB922B277430064B349 /* nakayamasou2 */ = {
+			isa = PBXGroup;
+			children = (
+				0047CEBA22B277430064B349 /* AppDelegate.swift */,
+				0047CEBC22B277430064B349 /* FirstViewController.swift */,
+				0047CEBE22B277430064B349 /* SecondViewController.swift */,
+				0047CEC022B277430064B349 /* Main.storyboard */,
+				0047CEC322B277450064B349 /* Assets.xcassets */,
+				0047CEC522B277450064B349 /* LaunchScreen.storyboard */,
+				0047CEC822B277450064B349 /* Info.plist */,
+				00E0526522B68EDD0041D058 /* MainViewController.swift */,
+				0053B14A22B737DB007A1AD4 /* TabViewController.swift */,
+			);
+			path = nakayamasou2;
+			sourceTree = "<group>";
+		};
+		06C8B451CA174120223582E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495C9A9251AEA635BCAAAA9B /* Pods_nakayamasou2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3188D41249052AAC69F9E649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CF187FF5661DD89942EB538 /* Pods-nakayamasou2.debug.xcconfig */,
+				B6C4A25C43EC9B1F0E03DA8C /* Pods-nakayamasou2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0047CEB622B277430064B349 /* nakayamasou2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0047CECB22B277450064B349 /* Build configuration list for PBXNativeTarget "nakayamasou2" */;
+			buildPhases = (
+				0E7B0371E40FA654907EE2AC /* [CP] Check Pods Manifest.lock */,
+				0047CEB322B277430064B349 /* Sources */,
+				0047CEB422B277430064B349 /* Frameworks */,
+				0047CEB522B277430064B349 /* Resources */,
+				E257B8D7A52E285A5E3D41F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nakayamasou2;
+			productName = nakayamasou2;
+			productReference = 0047CEB722B277430064B349 /* nakayamasou2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0047CEAF22B277430064B349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yuson;
+				TargetAttributes = {
+					0047CEB622B277430064B349 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0047CEB222B277430064B349 /* Build configuration list for PBXProject "nakayamasou2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0047CEAE22B277430064B349;
+			productRefGroup = 0047CEB822B277430064B349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0047CEB622B277430064B349 /* nakayamasou2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0047CEB522B277430064B349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0047CEC722B277450064B349 /* LaunchScreen.storyboard in Resources */,
+				0047CEC422B277450064B349 /* Assets.xcassets in Resources */,
+				0047CEC222B277430064B349 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E7B0371E40FA654907EE2AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nakayamasou2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E257B8D7A52E285A5E3D41F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nakayamasou2/Pods-nakayamasou2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nakayamasou2/Pods-nakayamasou2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nakayamasou2/Pods-nakayamasou2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0047CEB322B277430064B349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0047CEBF22B277430064B349 /* SecondViewController.swift in Sources */,
+				0047CEBB22B277430064B349 /* AppDelegate.swift in Sources */,
+				0047CEBD22B277430064B349 /* FirstViewController.swift in Sources */,
+				0053B14B22B737DB007A1AD4 /* TabViewController.swift in Sources */,
+				00E0526622B68EDD0041D058 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0047CEC022B277430064B349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0047CEC122B277430064B349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0047CEC522B277450064B349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0047CEC622B277450064B349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0047CEC922B277450064B349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0047CECA22B277450064B349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0047CECC22B277450064B349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF187FF5661DD89942EB538 /* Pods-nakayamasou2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G49892CF4;
+				INFOPLIST_FILE = nakayamasou2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.nakayamasou2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0047CECD22B277450064B349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C4A25C43EC9B1F0E03DA8C /* Pods-nakayamasou2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G49892CF4;
+				INFOPLIST_FILE = nakayamasou2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.nakayamasou2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0047CEB222B277430064B349 /* Build configuration list for PBXProject "nakayamasou2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0047CEC922B277450064B349 /* Debug */,
+				0047CECA22B277450064B349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0047CECB22B277450064B349 /* Build configuration list for PBXNativeTarget "nakayamasou2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0047CECC22B277450064B349 /* Debug */,
+				0047CECD22B277450064B349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0047CEAF22B277430064B349 /* Project object */;
+}
