@@ -350,7 +350,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XF6-rb-ruK">
                                                     <rect key="frame" x="131" y="6" width="153" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="◆ハウスルール総則◆"/>
+                                                    <state key="normal" title="◆ハウスルール総則◆">
+                                                        <color key="titleColor" red="0.56022846699999995" green="0.34207260610000001" blue="0.29017573600000002" alpha="0.78644049660000004" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </state>
                                                     <connections>
                                                         <segue destination="hoa-PS-qLx" kind="show" id="qrO-dk-2g1"/>
                                                     </connections>
@@ -368,7 +370,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qY9-Wo-Sn7">
                                                     <rect key="frame" x="123" y="6" width="169" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="◆起業家支援センター◆"/>
+                                                    <state key="normal" title="◆起業家支援センター◆">
+                                                        <color key="titleColor" red="0.56022846699999995" green="0.34207260610000001" blue="0.29017573600000002" alpha="0.78644049660000004" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </state>
                                                     <connections>
                                                         <segue destination="dS9-v1-Xe6" kind="show" id="LUz-6S-dor"/>
                                                     </connections>
@@ -386,7 +390,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UkG-Bl-vM3">
                                                     <rect key="frame" x="154" y="11" width="108" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="◆なかやま荘◆"/>
+                                                    <state key="normal" title="◆なかやま荘◆">
+                                                        <color key="titleColor" red="0.56022846699999995" green="0.34207260610000001" blue="0.29017573600000002" alpha="0.78644049660000004" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </state>
                                                     <connections>
                                                         <segue destination="o2D-ac-ogf" kind="show" id="p8O-kp-fp7"/>
                                                     </connections>
@@ -435,7 +441,7 @@
                                 <rect key="frame" x="20" y="210" width="374" height="652"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">◆入浴可能時間 　午前10時から翌日午前8時 　(午前8時から午前10時は清掃時間) 　シャンプー、リンス、ボディソープ常備  ◆洗濯 　洗濯機2台、乾燥機1台  ◆自動販売機系3機
+                                <string key="text">◆入浴可能時間 　午前10時から翌日午前8時 　(午前8時から午前10時は清掃時間) 　シャンプー、リンス、ボディソープ常備  ◆洗濯 　洗濯機2台、乾燥機1台  ◆自動販売機系3機
 
 ◆売店
 　アイス・牛乳・コーヒー牛乳
@@ -443,19 +449,19 @@
 
 ◆注意事項
 　ケトル(湯沸かし)以外の調理器具は異様禁止
-　近隣の飲食店で食べるか、惣菜やお湯で出来る食料を買っておくと良い
-　支援センターの近くに『薬王堂』『マックスバリュー』があるので
-　車所持者と一緒に買い出しして、ある程度備蓄しておく事をオススメ
+　近隣の飲食店で食べるか 　惣菜やお湯で出来る食料を買っておくと良い
+　支援センターの近くに『薬王堂』 　『マックスバリュー』があるので
+　車所持者と一緒に買い出しして 　ある程度備蓄しておく事をオススメ
 　※冷蔵庫もないので、常温保存出来るもの
 
 ◆睡眠
-　共同生活の為、いびきをかく人はブリーズライト等のいびき改善グッズを用意
+　共同生活の為、いびきをかく人は 　ブリーズライト等のいびき改善グッズを用意
 　慣れない環境なので、お互いの気遣いは必須
 
 ◆イベント
-　毎週もしくは隔週水曜日の夜に地域でバスケットボールをするイベントがあるので
-　バッシュを持っている人は用意しておくと、参加した時に便利
-　その他、地域協力隊関連のイベントが多数</mutableString>
+　毎週もしくは隔週水曜日の夜に 　地域でバスケットボールをするイベントがあるので
+　バッシュを持っている人は用意しておくと便利
+　その他、地域協力隊関連のイベントが多数</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -480,35 +486,34 @@
                                 <rect key="frame" x="20" y="171" width="374" height="691"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">◆住所
+                                <string key="text">◆住所
 岩手県八幡平市大更35-62
-https://goo.gl/maps/cSydbUpGoD52
 
 ◆場所　
-八幡平市役所西根総合支所３階(起業家支援センター)
-こちらはなんと、元・市議会議員の控室を勝手に占領した部屋ですw
-施設の入り方などは、↓のコメントを参照くださいませ。
+　八幡平市役所西根総合支所３階(起業家支援センター)
+　元・市議会議員の控室を勝手に占領した部屋です。
+　施設の入り方などは、↓のコメントを参照くださいませ。
 
 ◆お車の方　
-自家用車の方は、駐車場内にテキトーに停めてください。
-隣接する市民センターの近くだと、出入りもしやすいので便利です。
+　駐車場内にテキトーに停めてください。
+　隣接する市民センターの近くだと 　出入りもしやすいので便利です。
 
-◆公共交通機関をご利用の方
-盛岡駅7：12発の平舘駅前行き岩手県北バスに乗車しますと
-8：05に「西根総合支所前」へ到着します。
+◆盛岡駅からバスをご利用の方
+　盛岡駅7：12発の平舘駅前行き 　岩手県北バスに乗車すると
+　8：05に「西根総合支所前」へ到着します。
 　
-JRをご利用の場合は、盛岡駅発6：55発の大館行き花輪線に乗車しますと
-7：35に「大更駅」に到着します。大更駅からは徒歩で20分位です。
+◆盛岡駅から電車をご利用の方 　盛岡駅発6：55発の大館行き花輪線に乗車しますと
+　7：35に「大更駅」に到着します。 　大更駅からは徒歩で20分位です。
+ ◆その他　
+　最寄りのコンビニはセブンイレブンがありますが
+　少し距離があるので、昼食等事前に
+　ご用意頂くことをオススメします。
 　
-最寄りのコンビニはセブンイレブンがありますが
-やや離れていますので、昼食などは会場に来られる前に
-ご用意頂くことをオススメします。
+　会場には、シェアオフィス利用者がこっそり置いてる
+　電子レンジがありますので 　節度を持って利用いただくことが可能です。
+　あとは、公式に置いてる電気ポットがあります。
 　
-会場には、シェアオフィス利用者がこっそり置いてる
-電子レンジがありますので、節度を持って利用いただくことが可能です。
-あとは、公式に置いてる電気ポットがあります。
-　
-施設利用に関しては「汚さない」ことを大前提にご利用ください。</mutableString>
+　施設は「汚さない事」を大前提にご利用下さい。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -533,27 +538,27 @@ JRをご利用の場合は、盛岡駅発6：55発の大館行き花輪線に乗
                                 <rect key="frame" x="20" y="178" width="374" height="622"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">◆ハウスルール総則
-・本ルールを守れない人は即時退去とし、キャンプからも除名します。
-・故意、過失の別を問わず、現状復旧に経費が必要な状態になった場合は、応分の負担をいただきます。
-◆部屋の使用について
-・無料で滞在できていることを肝に銘じ、絶対に汚さないこと。汚した場合は責任を持って即時清掃すること。
-・室内での飲食は可としますが、飲酒・喫煙は厳禁とします。
-・部屋を汚した場合は、必ず本人が責任を持って清掃すること。
-・室内での歓談は構いませんが、室内で騒がないこと。特に夜9時以降は厳禁とします。
-・室内の引き戸などは、邪魔であっても決して外さないこと。
-・深夜0時で消灯とし、以降は決して作業をしないこと。
+                                <string key="text">◆ハウスルール総則
+・本ルールを守れない人は 　即時退去とし、キャンプからも除名します。
+・故意、過失の別を問わず 　現状復旧に経費が必要な状態になった場合 　応分の負担をいただきます。
+ ◆部屋の使用について
+・無料で滞在できていることを肝に銘じ 　絶対に汚さない事 　汚した場合は責任を持って即時清掃する事
+・室内での飲食は可としますが 　飲酒・喫煙は厳禁
+・部屋を汚した場合は 　必ず本人が責任を持って清掃する事
+・室内での歓談は構いませんが、室内で騒がない事 　特に夜9時以降は厳禁とします。
+・室内の引き戸等は、邪魔であっても決して外さない事
+・深夜0時で消灯とし、以降は決して作業をしない事 
 ◆共用部分について
-・他の利用者の迷惑にならないよう、洗濯物はすぐに回収すること。
-◆清掃およびゴミ出しについて
-・部屋ごとに全員で毎日清掃を行うこと。
-・清掃後は、必ず同室のメンバーの確認を得ること。
-・ゴミ出しは市の分別ルールを守るとともに、当番を決めて行うこと。
+・他の利用者の迷惑にならないよう 　洗濯物はすぐに回収する事
+ ◆清掃およびゴミ出しについて
+・部屋ごとに全員で毎日清掃を行う事
+・清掃後は、必ず同室のメンバーの確認を得る事
+・ゴミ出しは市の分別ルールを守り 　当番を決めて行う事 
 ◆郵便および宅配便について
-・荷物は、キャンプを実施する土日には決して到着することのないようにすること。
-
-過去のキャンプで、施設の他利用者から多数クレームを頂戴するなど、悪質な利用者が出ましたので、厳しいハウスルールを設けました。
-自分の軽率な行為により、次回以降スパルタキャンプが開催不能になる可能性もあることを肝に銘じて、施設を利用してください。</mutableString>
+・荷物は、キャンプを実施する土日には 　決して到着することのないようにする事
+ ◆最後に
+　過去のキャンプで、施設の他利用者から 　多数クレームを頂戴するなど 　悪質な利用者が出ましたので、 　厳しいハウスルールを設けました。
+　自分の軽率な行為により次回以降スパルタキャンプが 　開催不能になる可能性もあることを肝に銘じて 　施設を利用してください。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -851,7 +856,7 @@ JRをご利用の場合は、盛岡駅発6：55発の大館行き花輪線に乗
                                 <rect key="frame" x="20" y="367" width="374" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">地下２千メートルから噴出した蒸気を温泉として利用してマグマの湯と言われている珍しい温泉です。   松川渓谷の上流にある地熱発電所から引いています。泉質は単純硫黄温泉で、無色無臭のクセのないお湯です。気軽にご利用になれる温泉で、ゆったりとした時間をお過ごし下さい。</string>
+                                <string key="text">地下２千メートルから噴出した蒸気を温泉として 利用してマグマの湯と言われている珍しい温泉です。   松川渓谷の上流にある地熱発電所から引いています。 泉質は単純硫黄温泉で、無色無臭のクセのない湯です。 気軽にご利用になれる温泉で ゆったりとした時間をお過ごし下さい。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
