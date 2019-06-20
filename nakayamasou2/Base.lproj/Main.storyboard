@@ -589,10 +589,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJh-np-9Ed">
-                                <rect key="frame" x="103" y="433" width="184" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="なかやま荘  0915-78-3132"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="電話背景" translatesAutoresizingMaskIntoConstraints="NO" id="K3v-pq-m0M">
+                                <rect key="frame" x="5" y="93" width="404" height="715"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJh-np-9Ed">
+                                <rect key="frame" x="10" y="188" width="394" height="30"/>
+                                <color key="backgroundColor" red="0.033395091797173822" green="0.078648400720948183" blue="0.16263483502538068" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="なかやま荘  0915-78-3132">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="callButton:" destination="UAM-lO-oqc" eventType="touchUpInside" id="9ee-hF-Shh"/>
                                 </connections>
@@ -603,6 +608,15 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="K3v-pq-m0M" firstAttribute="top" secondItem="2Jj-IY-0Zx" secondAttribute="top" constant="5" id="1Iv-Z2-9HG"/>
+                            <constraint firstItem="2Jj-IY-0Zx" firstAttribute="trailing" secondItem="K3v-pq-m0M" secondAttribute="trailing" constant="5" id="1ZD-aa-fXv"/>
+                            <constraint firstItem="2Jj-IY-0Zx" firstAttribute="trailing" secondItem="jJh-np-9Ed" secondAttribute="trailing" constant="10" id="GRx-hs-DU3"/>
+                            <constraint firstItem="2Jj-IY-0Zx" firstAttribute="bottom" secondItem="K3v-pq-m0M" secondAttribute="bottom" constant="5" id="NYt-aW-PPy"/>
+                            <constraint firstItem="K3v-pq-m0M" firstAttribute="leading" secondItem="2Jj-IY-0Zx" secondAttribute="leading" constant="5" id="PBy-pj-Z3p"/>
+                            <constraint firstItem="jJh-np-9Ed" firstAttribute="top" secondItem="2Jj-IY-0Zx" secondAttribute="top" constant="100" id="XCs-hL-LwX"/>
+                            <constraint firstItem="jJh-np-9Ed" firstAttribute="leading" secondItem="2Jj-IY-0Zx" secondAttribute="leading" constant="10" id="ZOd-aV-4Ek"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="2Jj-IY-0Zx"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
@@ -892,7 +906,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u7h-2Q-jcb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3137.68115942029" y="-102.45535714285714"/>
+            <point key="canvasLocation" x="4210" y="186"/>
         </scene>
         <!--Tab View Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -1172,6 +1186,7 @@
         <image name="スクリーンショット 2019-06-17 9.50.26" width="994" height="826"/>
         <image name="温泉２" width="151" height="153"/>
         <image name="起業" width="1912" height="1912"/>
+        <image name="電話背景" width="4032" height="3024"/>
         <image name="電話２" width="656" height="468"/>
         <image name="風呂２" width="300" height="225"/>
         <image name="風呂３" width="168" height="225"/>
