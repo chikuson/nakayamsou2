@@ -14,6 +14,10 @@
 		0047CEC422B277450064B349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0047CEC322B277450064B349 /* Assets.xcassets */; };
 		0047CEC722B277450064B349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0047CEC522B277450064B349 /* LaunchScreen.storyboard */; };
 		0053B14B22B737DB007A1AD4 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053B14A22B737DB007A1AD4 /* TabViewController.swift */; };
+		00AD6ACB22BBDFE30016BE5E /* textViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD6ACA22BBDFE30016BE5E /* textViewController.swift */; };
+		00AD6ACD22BBE43A0016BE5E /* text2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD6ACC22BBE43A0016BE5E /* text2ViewController.swift */; };
+		00AD6ACF22BBE44F0016BE5E /* text3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD6ACE22BBE44F0016BE5E /* text3ViewController.swift */; };
+		00AD6AD122BC01A50016BE5E /* text4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD6AD022BC01A50016BE5E /* text4ViewController.swift */; };
 		00E0526622B68EDD0041D058 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0526522B68EDD0041D058 /* MainViewController.swift */; };
 		00FF076722B8B1180031A67A /* numberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF076622B8B1180031A67A /* numberViewController.swift */; };
 		708F9D2703602763BE575E99 /* Pods_nakayamasou2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495C9A9251AEA635BCAAAA9B /* Pods_nakayamasou2.framework */; };
@@ -29,6 +33,10 @@
 		0047CEC622B277450064B349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0047CEC822B277450064B349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0053B14A22B737DB007A1AD4 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		00AD6ACA22BBDFE30016BE5E /* textViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textViewController.swift; sourceTree = "<group>"; };
+		00AD6ACC22BBE43A0016BE5E /* text2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text2ViewController.swift; sourceTree = "<group>"; };
+		00AD6ACE22BBE44F0016BE5E /* text3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text3ViewController.swift; sourceTree = "<group>"; };
+		00AD6AD022BC01A50016BE5E /* text4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text4ViewController.swift; sourceTree = "<group>"; };
 		00E0526522B68EDD0041D058 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		00FF076622B8B1180031A67A /* numberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberViewController.swift; sourceTree = "<group>"; };
 		2CF187FF5661DD89942EB538 /* Pods-nakayamasou2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nakayamasou2.debug.xcconfig"; path = "Target Support Files/Pods-nakayamasou2/Pods-nakayamasou2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +87,10 @@
 				00E0526522B68EDD0041D058 /* MainViewController.swift */,
 				0053B14A22B737DB007A1AD4 /* TabViewController.swift */,
 				00FF076622B8B1180031A67A /* numberViewController.swift */,
+				00AD6ACA22BBDFE30016BE5E /* textViewController.swift */,
+				00AD6ACC22BBE43A0016BE5E /* text2ViewController.swift */,
+				00AD6ACE22BBE44F0016BE5E /* text3ViewController.swift */,
+				00AD6AD022BC01A50016BE5E /* text4ViewController.swift */,
 			);
 			path = nakayamasou2;
 			sourceTree = "<group>";
@@ -215,11 +227,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AD6AD122BC01A50016BE5E /* text4ViewController.swift in Sources */,
+				00AD6ACF22BBE44F0016BE5E /* text3ViewController.swift in Sources */,
 				0047CEBF22B277430064B349 /* SecondViewController.swift in Sources */,
 				0047CEBB22B277430064B349 /* AppDelegate.swift in Sources */,
+				00AD6ACD22BBE43A0016BE5E /* text2ViewController.swift in Sources */,
 				0047CEBD22B277430064B349 /* FirstViewController.swift in Sources */,
 				0053B14B22B737DB007A1AD4 /* TabViewController.swift in Sources */,
 				00E0526622B68EDD0041D058 /* MainViewController.swift in Sources */,
+				00AD6ACB22BBDFE30016BE5E /* textViewController.swift in Sources */,
 				00FF076722B8B1180031A67A /* numberViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +384,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29597X4CUY;
+				DEVELOPMENT_TEAM = 6G49892CF4;
 				INFOPLIST_FILE = nakayamasou2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,7 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29597X4CUY;
+				DEVELOPMENT_TEAM = 6G49892CF4;
 				INFOPLIST_FILE = nakayamasou2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
