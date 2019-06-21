@@ -589,33 +589,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="電話背景" translatesAutoresizingMaskIntoConstraints="NO" id="K3v-pq-m0M">
-                                <rect key="frame" x="5" y="93" width="404" height="715"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="電話背景.2jpg" translatesAutoresizingMaskIntoConstraints="NO" id="K3v-pq-m0M">
+                                <rect key="frame" x="5" y="93" width="404" height="715.00000000000045"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MdY-iy-ezX">
+                                <rect key="frame" x="180" y="601" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJh-np-9Ed">
-                                <rect key="frame" x="10" y="188" width="394" height="30"/>
-                                <color key="backgroundColor" red="0.033395091797173822" green="0.078648400720948183" blue="0.16263483502538068" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="なかやま荘  0915-78-3132">
+                                <rect key="frame" x="182" y="634" width="212" height="49"/>
+                                <color key="backgroundColor" red="0.010211520388601793" green="0.024049035480143612" blue="0.049730329949238539" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="26"/>
+                                <state key="normal" title=" 0915-78-3132 ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="callButton:" destination="UAM-lO-oqc" eventType="touchUpInside" id="9ee-hF-Shh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MdY-iy-ezX">
-                                <rect key="frame" x="180" y="601" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="なかやま荘" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esi-sC-4lB">
+                                <rect key="frame" x="236" y="595.5" width="143" height="38.5"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="K3v-pq-m0M" firstAttribute="top" secondItem="2Jj-IY-0Zx" secondAttribute="top" constant="5" id="1Iv-Z2-9HG"/>
                             <constraint firstItem="2Jj-IY-0Zx" firstAttribute="trailing" secondItem="K3v-pq-m0M" secondAttribute="trailing" constant="5" id="1ZD-aa-fXv"/>
-                            <constraint firstItem="2Jj-IY-0Zx" firstAttribute="trailing" secondItem="jJh-np-9Ed" secondAttribute="trailing" constant="10" id="GRx-hs-DU3"/>
+                            <constraint firstItem="2Jj-IY-0Zx" firstAttribute="trailing" secondItem="jJh-np-9Ed" secondAttribute="trailing" constant="20" id="5Fn-gJ-rXj"/>
+                            <constraint firstItem="2Jj-IY-0Zx" firstAttribute="bottom" secondItem="jJh-np-9Ed" secondAttribute="bottom" constant="130" id="EGj-d2-Zq7"/>
+                            <constraint firstItem="jJh-np-9Ed" firstAttribute="top" secondItem="esi-sC-4lB" secondAttribute="bottom" id="HAs-VB-ZHf"/>
                             <constraint firstItem="2Jj-IY-0Zx" firstAttribute="bottom" secondItem="K3v-pq-m0M" secondAttribute="bottom" constant="5" id="NYt-aW-PPy"/>
                             <constraint firstItem="K3v-pq-m0M" firstAttribute="leading" secondItem="2Jj-IY-0Zx" secondAttribute="leading" constant="5" id="PBy-pj-Z3p"/>
-                            <constraint firstItem="jJh-np-9Ed" firstAttribute="top" secondItem="2Jj-IY-0Zx" secondAttribute="top" constant="100" id="XCs-hL-LwX"/>
-                            <constraint firstItem="jJh-np-9Ed" firstAttribute="leading" secondItem="2Jj-IY-0Zx" secondAttribute="leading" constant="10" id="ZOd-aV-4Ek"/>
+                            <constraint firstItem="2Jj-IY-0Zx" firstAttribute="trailing" secondItem="esi-sC-4lB" secondAttribute="trailing" constant="35" id="rNP-u3-l8U"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2Jj-IY-0Zx"/>
                         <userDefinedRuntimeAttributes>
@@ -1186,7 +1194,7 @@
         <image name="スクリーンショット 2019-06-17 9.50.26" width="994" height="826"/>
         <image name="温泉２" width="151" height="153"/>
         <image name="起業" width="1912" height="1912"/>
-        <image name="電話背景" width="4032" height="3024"/>
+        <image name="電話背景.2jpg" width="2465" height="3012"/>
         <image name="電話２" width="656" height="468"/>
         <image name="風呂２" width="300" height="225"/>
         <image name="風呂３" width="168" height="225"/>
