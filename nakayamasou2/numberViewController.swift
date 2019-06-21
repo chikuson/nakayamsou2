@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class numberViewController: UIViewController {
 
@@ -16,7 +17,7 @@ class numberViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func callButton(_ sender: Any) {
-        if let url = URL(string: "tel://\(08058843579)") {
+        if let url = URL(string: "tel://\(0810915783132)") {
             UIApplication.shared.openURL(url)
         }
         
@@ -25,7 +26,14 @@ class numberViewController: UIViewController {
 //        
     }
     
-
+    @IBAction func urlButton(_ sender: Any) {
+        
+        guard let url = URL(string: "http://www.hachimantai-ss.co.jp/~nakayamasou/access.html") else { return }
+        let safariController = SFSafariViewController(url: url)
+        present(safariController, animated: true, completion: nil)
+    }
+    
+    
     /*
     // MARK: - Navigation
 

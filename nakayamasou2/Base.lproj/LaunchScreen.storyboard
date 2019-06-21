@@ -18,12 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nakayama logo1610_アートボード １" translatesAutoresizingMaskIntoConstraints="NO" id="7a9-rE-e3X">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nakayama logo1610_アートボード １-1" translatesAutoresizingMaskIntoConstraints="NO" id="7a9-rE-e3X">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7a9-rE-e3X" secondAttribute="height" multiplier="207:409" id="tYY-sI-ui5"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7a9-rE-e3X" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="BI8-WV-hBf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7a9-rE-e3X" secondAttribute="trailing" id="Rn5-27-q4t"/>
+                            <constraint firstItem="7a9-rE-e3X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="e6y-hZ-0Fy"/>
+                            <constraint firstItem="7a9-rE-e3X" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="x2Z-vj-e2x"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -33,6 +41,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="nakayama logo1610_アートボード １" width="1655" height="2647"/>
+        <image name="nakayama logo1610_アートボード １-1" width="1655" height="2647"/>
     </resources>
 </document>
