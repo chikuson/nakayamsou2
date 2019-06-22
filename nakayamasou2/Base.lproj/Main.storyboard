@@ -131,10 +131,6 @@
                                     <segue destination="zwD-Tz-jt0" kind="show" id="hjN-IQ-veQ"/>
                                 </connections>
                             </button>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="hLU-bJ-oYc">
-                                <rect key="frame" x="181" y="292" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="お問い合わせ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2v6-4u-IJO">
                                 <rect key="frame" x="13" y="683" width="104" height="21"/>
                                 <constraints>
@@ -194,14 +190,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iY8-Gm-2i1">
-                                <rect key="frame" x="57" y="210" width="306" height="200"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="iY8-Gm-2i1">
+                                <rect key="frame" x="117" y="175" width="180" height="100"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="FKz-tD-eUQ">
-                                        <rect key="frame" x="131" y="155" width="39" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="FKz-tD-eUQ">
+                                        <rect key="frame" x="133.5" y="155" width="39" height="37"/>
                                     </pageControl>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="FKz-tD-eUQ" secondAttribute="trailing" constant="7.5" id="3Oz-be-Ngt"/>
+                                    <constraint firstItem="FKz-tD-eUQ" firstAttribute="centerX" secondItem="iY8-Gm-2i1" secondAttribute="centerX" constant="63" id="a8i-Ct-0Ft"/>
+                                    <constraint firstItem="FKz-tD-eUQ" firstAttribute="bottom" secondItem="iY8-Gm-2i1" secondAttribute="bottomMargin" constant="100" id="hB2-CI-Dgm"/>
+                                    <constraint firstItem="FKz-tD-eUQ" firstAttribute="top" secondItem="iY8-Gm-2i1" secondAttribute="top" constant="155" id="mi7-d4-qFA"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -216,10 +217,13 @@
                             <constraint firstItem="AwI-Ux-mg4" firstAttribute="centerY" secondItem="vbM-Lx-l52" secondAttribute="centerY" id="B2s-lp-YZw"/>
                             <constraint firstItem="kWU-TZ-Xx8" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="5" id="EiR-0h-Nlx"/>
                             <constraint firstItem="2v6-4u-IJO" firstAttribute="centerX" secondItem="qNJ-uc-CJR" secondAttribute="centerX" id="EyI-SY-ewU"/>
+                            <constraint firstItem="iY8-Gm-2i1" firstAttribute="top" secondItem="A5M-7J-77L" secondAttribute="bottom" constant="64" id="Gil-rq-inS"/>
                             <constraint firstItem="kbE-pu-zuf" firstAttribute="bottom" secondItem="PQr-Ze-W5v" secondAttribute="bottom" id="HfO-cM-XSk"/>
-                            <constraint firstItem="iY8-Gm-2i1" firstAttribute="top" secondItem="A5M-7J-77L" secondAttribute="bottom" constant="30" id="KEp-Ij-qF6"/>
+                            <constraint firstAttribute="bottom" secondItem="iY8-Gm-2i1" secondAttribute="bottom" constant="621" id="MKH-r6-DC7"/>
+                            <constraint firstItem="iY8-Gm-2i1" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="117" id="MLT-tf-lJe"/>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="A5M-7J-77L" secondAttribute="trailing" constant="109.5" id="MhZ-Wv-HD0"/>
                             <constraint firstItem="n74-fh-ZDS" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="Nlo-FV-MhG"/>
+                            <constraint firstItem="iY8-Gm-2i1" firstAttribute="centerX" secondItem="A5M-7J-77L" secondAttribute="centerX" id="OzE-Xv-beH"/>
                             <constraint firstItem="qNJ-uc-CJR" firstAttribute="centerX" secondItem="ax7-Wj-ibp" secondAttribute="centerX" id="Re0-eO-itH"/>
                             <constraint firstItem="Vg8-Lx-nf1" firstAttribute="centerY" secondItem="qNJ-uc-CJR" secondAttribute="centerY" id="Sl3-dk-Epz"/>
                             <constraint firstItem="Fef-PN-Vbe" firstAttribute="centerY" secondItem="Vg8-Lx-nf1" secondAttribute="centerY" id="Tra-hz-D1L"/>
@@ -230,17 +234,16 @@
                             <constraint firstItem="kWU-TZ-Xx8" firstAttribute="top" secondItem="Vqe-Wk-wnF" secondAttribute="bottom" constant="30" id="byc-hn-q9W"/>
                             <constraint firstItem="bSd-UQ-vBq" firstAttribute="centerX" secondItem="Fef-PN-Vbe" secondAttribute="centerX" id="c5v-lY-ZfW"/>
                             <constraint firstItem="bSd-UQ-vBq" firstAttribute="centerY" secondItem="Vqe-Wk-wnF" secondAttribute="centerY" id="c6O-M2-i8f"/>
+                            <constraint firstItem="kbE-pu-zuf" firstAttribute="bottom" secondItem="PQr-Ze-W5v" secondAttribute="bottom" id="do9-yU-1cD"/>
                             <constraint firstItem="vbM-Lx-l52" firstAttribute="centerX" secondItem="n74-fh-ZDS" secondAttribute="centerX" id="eO1-q8-Vmi"/>
                             <constraint firstItem="vbM-Lx-l52" firstAttribute="top" secondItem="n74-fh-ZDS" secondAttribute="bottom" constant="2" id="ehH-Q6-VoS"/>
                             <constraint firstItem="n74-fh-ZDS" firstAttribute="centerY" secondItem="uaV-rb-0D7" secondAttribute="centerY" id="fOc-oU-EJJ"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="109.5" id="fbG-hF-9i4"/>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="kWU-TZ-Xx8" secondAttribute="trailing" constant="5" id="ffS-FQ-s82"/>
-                            <constraint firstItem="iY8-Gm-2i1" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="g84-Zx-BXy"/>
                             <constraint firstItem="Fef-PN-Vbe" firstAttribute="centerX" secondItem="AwI-Ux-mg4" secondAttribute="centerX" id="gJY-FO-SDa"/>
                             <constraint firstItem="0TF-pZ-WkL" firstAttribute="centerY" secondItem="n74-fh-ZDS" secondAttribute="centerY" id="lgs-ar-foY"/>
                             <constraint firstItem="ax7-Wj-ibp" firstAttribute="centerX" secondItem="uaV-rb-0D7" secondAttribute="centerX" id="ljO-5k-XAG"/>
                             <constraint firstItem="uaV-rb-0D7" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="o5O-HN-FYf"/>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="iY8-Gm-2i1" secondAttribute="trailing" constant="20" id="oNQ-GX-eUf"/>
                             <constraint firstItem="kbE-pu-zuf" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="pWT-wY-P1y"/>
                             <constraint firstItem="Vqe-Wk-wnF" firstAttribute="top" secondItem="Vg8-Lx-nf1" secondAttribute="bottom" constant="2" id="pka-10-zbX"/>
                             <constraint firstItem="qNJ-uc-CJR" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="thZ-dx-BWa"/>
@@ -817,7 +820,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="電話背景.2jpg" translatesAutoresizingMaskIntoConstraints="NO" id="K3v-pq-m0M">
-                                <rect key="frame" x="5" y="93" width="404" height="715.00000000000045"/>
+                                <rect key="frame" x="5" y="93" width="404" height="715"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="call"/>
@@ -1496,6 +1499,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qmc-gR-NCP" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="館内案内" image="非常口のあの人のアイコン" id="DNX-tJ-XKT">
+                        <color key="badgeColor" red="0.4913308898" green="0.8323031689" blue="0.92362735569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -1556,7 +1560,6 @@
         <image name="なかやま荘" width="814" height="214"/>
 
         <image name="キャリーバッグ1" width="30" height="30"/>
-        <image name="スクリーンショット 2019-06-17 15.07.19" width="550" height="194"/>
         <image name="スクリーンショット 2019-06-17 16.07.08" width="946" height="194"/>
         <image name="スクリーンショット 2019-06-17 20.52.31" width="538" height="492"/>
         <image name="スクリーンショット 2019-06-17 20.54.02" width="636" height="198"/>
