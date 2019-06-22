@@ -18,8 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3516" translatesAutoresizingMaskIntoConstraints="NO" id="kbE-pu-zuf">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaV-rb-0D7">
-                                <rect key="frame" x="20" y="438" width="90" height="90"/>
+                                <rect key="frame" x="20" y="448" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="rXn-1G-Rm1"/>
                                     <constraint firstAttribute="width" secondItem="uaV-rb-0D7" secondAttribute="height" multiplier="1:1" id="vrI-Gw-476"/>
@@ -27,15 +30,15 @@
                                 <state key="normal" title="写真" image="温泉２"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="water"/>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="t9x-Sr-lmm" kind="show" id="s9N-uy-N8e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n74-fh-ZDS">
-                                <rect key="frame" x="162" y="438" width="90" height="90"/>
+                                <rect key="frame" x="162" y="448" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="n74-fh-ZDS" secondAttribute="height" multiplier="1:1" id="BFZ-x7-OuQ"/>
                                     <constraint firstAttribute="height" constant="90" id="jKk-Xp-vyd"/>
@@ -44,6 +47,7 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="eat"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="eat"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -51,18 +55,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNJ-uc-CJR">
-                                <rect key="frame" x="20" y="581" width="90" height="90"/>
+                                <rect key="frame" x="20" y="591" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="qNJ-uc-CJR" secondAttribute="height" multiplier="1:1" id="6dV-3j-Sty"/>
                                     <constraint firstAttribute="height" constant="90" id="GqD-Kc-fVj"/>
                                 </constraints>
                                 <state key="normal" title="写真" image="電話２"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="call"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="UAM-lO-oqc" kind="show" id="Fvh-wz-ORj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TF-pZ-WkL">
-                                <rect key="frame" x="304" y="438" width="90" height="90"/>
+                                <rect key="frame" x="304" y="448" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="hHU-qh-CBf"/>
                                     <constraint firstAttribute="width" secondItem="0TF-pZ-WkL" secondAttribute="height" multiplier="1:1" id="hhO-cl-Hoy"/>
@@ -77,18 +86,17 @@
                                     <segue destination="cWZ-ni-SK6" kind="show" id="0GS-bc-UxN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="お風呂" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ax7-Wj-ibp">
-                                <rect key="frame" x="39" y="530" width="52" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="お風呂" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ax7-Wj-ibp">
+                                <rect key="frame" x="39" y="540" width="52" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="DO6-Oq-5nd"/>
                                     <constraint firstAttribute="height" constant="21" id="H1g-Nt-djP"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="食事処" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbM-Lx-l52">
-                                <rect key="frame" x="181" y="530" width="52" height="21"/>
+                                <rect key="frame" x="181" y="540" width="52" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="JQz-OA-6ZK"/>
                                     <constraint firstAttribute="width" constant="52" id="cJM-eb-627"/>
@@ -98,7 +106,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交通案内" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vqe-Wk-wnF">
-                                <rect key="frame" x="172" y="673" width="70" height="21"/>
+                                <rect key="frame" x="172" y="683" width="70" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="VC6-Jt-UuN"/>
                                     <constraint firstAttribute="height" constant="21" id="gZ0-RT-I3v"/>
@@ -108,7 +116,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fef-PN-Vbe">
-                                <rect key="frame" x="304" y="581" width="90" height="90"/>
+                                <rect key="frame" x="304" y="591" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Fef-PN-Vbe" secondAttribute="height" multiplier="1:1" id="G0c-Wd-fAR"/>
                                     <constraint firstAttribute="height" constant="90" id="p80-Bx-RBC"/>
@@ -123,12 +131,8 @@
                                     <segue destination="zwD-Tz-jt0" kind="show" id="hjN-IQ-veQ"/>
                                 </connections>
                             </button>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="hLU-bJ-oYc">
-                                <rect key="frame" x="181" y="292" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="お問い合わせ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2v6-4u-IJO">
-                                <rect key="frame" x="13" y="673" width="104" height="21"/>
+                                <rect key="frame" x="13" y="683" width="104" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="104" id="9kY-Hn-hOb"/>
                                     <constraint firstAttribute="height" constant="21" id="zcs-xM-avO"/>
@@ -138,7 +142,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="起業志民Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSd-UQ-vBq">
-                                <rect key="frame" x="287" y="673" width="124" height="21"/>
+                                <rect key="frame" x="287" y="683" width="124" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="124" id="cJD-n6-Zbk"/>
                                     <constraint firstAttribute="height" constant="21" id="tct-7S-vno"/>
@@ -148,14 +152,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vg8-Lx-nf1">
-                                <rect key="frame" x="162" y="581" width="90" height="90"/>
+                                <rect key="frame" x="162" y="591" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="SYN-LV-AH6"/>
                                     <constraint firstAttribute="width" secondItem="Vg8-Lx-nf1" secondAttribute="height" multiplier="1:1" id="Vi0-Tt-WAx"/>
                                 </constraints>
                                 <state key="normal" title="写真" image="illustrain10-norimono17"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="car"/>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="car"/>
@@ -171,18 +174,14 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="八幡平市 自然休暇村 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="109.5" y="88" width="195" height="26"/>
+                                <rect key="frame" x="109.5" y="93" width="195" height="18"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="195" id="AQv-N4-Qh6"/>
-                                    <constraint firstAttribute="height" constant="26" id="e9i-tN-hRB"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ネットワーク" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AwI-Ux-mg4">
-                                <rect key="frame" x="297" y="530" width="104" height="21"/>
+                                <rect key="frame" x="297" y="540" width="104" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="W3m-jH-SFi"/>
                                     <constraint firstAttribute="width" constant="104" id="ubC-F4-lt9"/>
@@ -191,28 +190,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2019-06-17 15.07.19" translatesAutoresizingMaskIntoConstraints="NO" id="F0Z-gV-TAa">
-                                <rect key="frame" x="-75" y="114" width="564" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="1kI-bX-pRL"/>
-                                    <constraint firstAttribute="width" secondItem="F0Z-gV-TAa" secondAttribute="height" multiplier="141:20" id="xuv-cS-KCc"/>
-                                </constraints>
-                            </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iY8-Gm-2i1">
-                                <rect key="frame" x="57" y="246" width="300" height="128"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="iY8-Gm-2i1">
+                                <rect key="frame" x="117" y="175" width="180" height="100"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="FKz-tD-eUQ">
-                                        <rect key="frame" x="131" y="91" width="39" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="FKz-tD-eUQ">
+                                        <rect key="frame" x="133.5" y="155" width="39" height="37"/>
                                     </pageControl>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="FKz-tD-eUQ" secondAttribute="trailing" constant="7.5" id="3Oz-be-Ngt"/>
+                                    <constraint firstItem="FKz-tD-eUQ" firstAttribute="centerX" secondItem="iY8-Gm-2i1" secondAttribute="centerX" constant="63" id="a8i-Ct-0Ft"/>
+                                    <constraint firstItem="FKz-tD-eUQ" firstAttribute="bottom" secondItem="iY8-Gm-2i1" secondAttribute="bottomMargin" constant="100" id="hB2-CI-Dgm"/>
+                                    <constraint firstItem="FKz-tD-eUQ" firstAttribute="top" secondItem="iY8-Gm-2i1" secondAttribute="top" constant="155" id="mi7-d4-qFA"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.154716086" green="1" blue="0.05013484738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="5" id="27M-Zq-ekn"/>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="kWU-TZ-Xx8" secondAttribute="bottom" id="3hM-Pa-Rux"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="3zM-1D-V5g"/>
                             <constraint firstItem="AwI-Ux-mg4" firstAttribute="centerX" secondItem="0TF-pZ-WkL" secondAttribute="centerX" id="4An-4U-BWt"/>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="0TF-pZ-WkL" secondAttribute="trailing" constant="20" id="6m1-Dv-v63"/>
                             <constraint firstItem="Vg8-Lx-nf1" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="9aZ-ji-bMM"/>
@@ -220,30 +217,34 @@
                             <constraint firstItem="AwI-Ux-mg4" firstAttribute="centerY" secondItem="vbM-Lx-l52" secondAttribute="centerY" id="B2s-lp-YZw"/>
                             <constraint firstItem="kWU-TZ-Xx8" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="5" id="EiR-0h-Nlx"/>
                             <constraint firstItem="2v6-4u-IJO" firstAttribute="centerX" secondItem="qNJ-uc-CJR" secondAttribute="centerX" id="EyI-SY-ewU"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="N9B-26-79B"/>
+                            <constraint firstItem="iY8-Gm-2i1" firstAttribute="top" secondItem="A5M-7J-77L" secondAttribute="bottom" constant="64" id="Gil-rq-inS"/>
+                            <constraint firstItem="kbE-pu-zuf" firstAttribute="bottom" secondItem="PQr-Ze-W5v" secondAttribute="bottom" id="HfO-cM-XSk"/>
+                            <constraint firstAttribute="bottom" secondItem="iY8-Gm-2i1" secondAttribute="bottom" constant="621" id="MKH-r6-DC7"/>
+                            <constraint firstItem="iY8-Gm-2i1" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="117" id="MLT-tf-lJe"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="A5M-7J-77L" secondAttribute="trailing" constant="109.5" id="MhZ-Wv-HD0"/>
                             <constraint firstItem="n74-fh-ZDS" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="Nlo-FV-MhG"/>
-                            <constraint firstItem="iY8-Gm-2i1" firstAttribute="top" secondItem="F0Z-gV-TAa" secondAttribute="bottom" constant="20" id="POi-PF-OLX"/>
+                            <constraint firstItem="iY8-Gm-2i1" firstAttribute="centerX" secondItem="A5M-7J-77L" secondAttribute="centerX" id="OzE-Xv-beH"/>
                             <constraint firstItem="qNJ-uc-CJR" firstAttribute="centerX" secondItem="ax7-Wj-ibp" secondAttribute="centerX" id="Re0-eO-itH"/>
                             <constraint firstItem="Vg8-Lx-nf1" firstAttribute="centerY" secondItem="qNJ-uc-CJR" secondAttribute="centerY" id="Sl3-dk-Epz"/>
                             <constraint firstItem="Fef-PN-Vbe" firstAttribute="centerY" secondItem="Vg8-Lx-nf1" secondAttribute="centerY" id="Tra-hz-D1L"/>
-                            <constraint firstItem="F0Z-gV-TAa" firstAttribute="top" secondItem="A5M-7J-77L" secondAttribute="bottom" id="VKP-DM-SyA"/>
                             <constraint firstItem="Vg8-Lx-nf1" firstAttribute="top" secondItem="vbM-Lx-l52" secondAttribute="bottom" constant="30" id="WEQ-OI-Q9K"/>
-                            <constraint firstItem="F0Z-gV-TAa" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="Wxs-oG-4Au"/>
+                            <constraint firstItem="kbE-pu-zuf" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="Yx6-Gf-PvZ"/>
+                            <constraint firstItem="kbE-pu-zuf" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="aCu-ry-XPB"/>
                             <constraint firstItem="vbM-Lx-l52" firstAttribute="centerY" secondItem="ax7-Wj-ibp" secondAttribute="centerY" id="ayj-bP-VDl"/>
-                            <constraint firstItem="kWU-TZ-Xx8" firstAttribute="top" secondItem="Vqe-Wk-wnF" secondAttribute="bottom" constant="40" id="byc-hn-q9W"/>
+                            <constraint firstItem="kWU-TZ-Xx8" firstAttribute="top" secondItem="Vqe-Wk-wnF" secondAttribute="bottom" constant="30" id="byc-hn-q9W"/>
                             <constraint firstItem="bSd-UQ-vBq" firstAttribute="centerX" secondItem="Fef-PN-Vbe" secondAttribute="centerX" id="c5v-lY-ZfW"/>
                             <constraint firstItem="bSd-UQ-vBq" firstAttribute="centerY" secondItem="Vqe-Wk-wnF" secondAttribute="centerY" id="c6O-M2-i8f"/>
+                            <constraint firstItem="kbE-pu-zuf" firstAttribute="bottom" secondItem="PQr-Ze-W5v" secondAttribute="bottom" id="do9-yU-1cD"/>
                             <constraint firstItem="vbM-Lx-l52" firstAttribute="centerX" secondItem="n74-fh-ZDS" secondAttribute="centerX" id="eO1-q8-Vmi"/>
                             <constraint firstItem="vbM-Lx-l52" firstAttribute="top" secondItem="n74-fh-ZDS" secondAttribute="bottom" constant="2" id="ehH-Q6-VoS"/>
                             <constraint firstItem="n74-fh-ZDS" firstAttribute="centerY" secondItem="uaV-rb-0D7" secondAttribute="centerY" id="fOc-oU-EJJ"/>
+                            <constraint firstItem="A5M-7J-77L" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="109.5" id="fbG-hF-9i4"/>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="kWU-TZ-Xx8" secondAttribute="trailing" constant="5" id="ffS-FQ-s82"/>
-                            <constraint firstItem="iY8-Gm-2i1" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="g84-Zx-BXy"/>
                             <constraint firstItem="Fef-PN-Vbe" firstAttribute="centerX" secondItem="AwI-Ux-mg4" secondAttribute="centerX" id="gJY-FO-SDa"/>
                             <constraint firstItem="0TF-pZ-WkL" firstAttribute="centerY" secondItem="n74-fh-ZDS" secondAttribute="centerY" id="lgs-ar-foY"/>
                             <constraint firstItem="ax7-Wj-ibp" firstAttribute="centerX" secondItem="uaV-rb-0D7" secondAttribute="centerX" id="ljO-5k-XAG"/>
-                            <constraint firstItem="uaV-rb-0D7" firstAttribute="top" secondItem="iY8-Gm-2i1" secondAttribute="bottom" constant="10" id="lqD-mV-O21"/>
                             <constraint firstItem="uaV-rb-0D7" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="o5O-HN-FYf"/>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="iY8-Gm-2i1" secondAttribute="trailing" constant="20" id="oNQ-GX-eUf"/>
+                            <constraint firstItem="kbE-pu-zuf" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="pWT-wY-P1y"/>
                             <constraint firstItem="Vqe-Wk-wnF" firstAttribute="top" secondItem="Vg8-Lx-nf1" secondAttribute="bottom" constant="2" id="pka-10-zbX"/>
                             <constraint firstItem="qNJ-uc-CJR" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="thZ-dx-BWa"/>
                             <constraint firstItem="Vqe-Wk-wnF" firstAttribute="centerY" secondItem="2v6-4u-IJO" secondAttribute="centerY" id="vaj-yC-gdi"/>
@@ -283,6 +284,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3523" translatesAutoresizingMaskIntoConstraints="NO" id="Ns3-gd-oYd">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="net"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="laJ-fb-sP7">
                                 <rect key="frame" x="87" y="298" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -291,6 +300,11 @@
 パス　hachimantai</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="net"/>
+                                </userDefinedRuntimeAttributes>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WIFI 設定" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dd5-qb-gUl">
                                 <rect key="frame" x="138" y="212" width="138" height="40"/>
@@ -326,6 +340,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3522" translatesAutoresizingMaskIntoConstraints="NO" id="MbF-QG-xgi">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="eat"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ry01" translatesAutoresizingMaskIntoConstraints="NO" id="JUV-Dx-n3q">
                                 <rect key="frame" x="20" y="420" width="169" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -333,6 +356,9 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ry05" translatesAutoresizingMaskIntoConstraints="NO" id="XNa-DP-l0H">
                                 <rect key="frame" x="221" y="420" width="173" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2019-06-17 16.07.08" translatesAutoresizingMaskIntoConstraints="NO" id="ZPR-PT-h7D">
                                 <rect key="frame" x="57" y="88" width="300" height="100"/>
@@ -343,17 +369,26 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ry04" translatesAutoresizingMaskIntoConstraints="NO" id="vS8-er-zuf">
                                 <rect key="frame" x="15" y="237" width="174" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ry03" translatesAutoresizingMaskIntoConstraints="NO" id="HZU-50-MmO">
                                 <rect key="frame" x="17" y="607" width="172" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ry06" translatesAutoresizingMaskIntoConstraints="NO" id="uqW-iJ-UTq">
                                 <rect key="frame" x="221" y="607" width="173" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自慢の料理" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7E2-oV-xSU">
-                                <rect key="frame" x="141" y="198" width="132" height="31.5"/>
+                                <rect key="frame" x="120" y="198" width="174" height="31.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -404,16 +439,16 @@
                                 <rect key="frame" x="225" y="237" width="169" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="eat"/>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="0oc-5a-RFX" firstAttribute="trailing" secondItem="ZPR-PT-h7D" secondAttribute="trailing" constant="57" id="843-mq-Ob2"/>
-                            <constraint firstItem="7E2-oV-xSU" firstAttribute="leading" secondItem="0oc-5a-RFX" secondAttribute="leading" constant="141" id="KTq-vT-sNw"/>
-                            <constraint firstItem="0oc-5a-RFX" firstAttribute="trailing" secondItem="7E2-oV-xSU" secondAttribute="trailing" constant="141" id="OIX-UZ-d0h"/>
+                            <constraint firstItem="7E2-oV-xSU" firstAttribute="leading" secondItem="0oc-5a-RFX" secondAttribute="leading" constant="120" id="KTq-vT-sNw"/>
+                            <constraint firstItem="0oc-5a-RFX" firstAttribute="trailing" secondItem="7E2-oV-xSU" secondAttribute="trailing" constant="120" id="OIX-UZ-d0h"/>
                             <constraint firstItem="7E2-oV-xSU" firstAttribute="top" secondItem="ZPR-PT-h7D" secondAttribute="bottom" constant="10" id="QPr-8j-wz2"/>
                             <constraint firstItem="ZPR-PT-h7D" firstAttribute="leading" secondItem="0oc-5a-RFX" secondAttribute="leading" constant="57" id="iCa-Yv-UId"/>
                             <constraint firstItem="ZPR-PT-h7D" firstAttribute="top" secondItem="0oc-5a-RFX" secondAttribute="top" id="jS1-cb-ZQA"/>
@@ -452,14 +487,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XF6-rb-ruK">
-                                                    <rect key="frame" x="130" y="5" width="154" height="33.5"/>
+                                                    <rect key="frame" x="110" y="5" width="194" height="33.5"/>
                                                     <state key="normal" title="◆ハウスルール総則◆">
                                                         <color key="titleColor" red="0.56022846699999995" green="0.34207260610000001" blue="0.29017573600000002" alpha="0.78644049660000004" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="house"/>
                                                         <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="house"/>
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <segue destination="hoa-PS-qLx" kind="show" id="qrO-dk-2g1"/>
@@ -467,11 +502,16 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="XF6-rb-ruK" secondAttribute="trailing" constant="130" id="FHX-bN-ONG"/>
+                                                <constraint firstAttribute="trailing" secondItem="XF6-rb-ruK" secondAttribute="trailing" constant="110" id="FHX-bN-ONG"/>
                                                 <constraint firstItem="XF6-rb-ruK" firstAttribute="top" secondItem="4JG-Up-ITp" secondAttribute="top" constant="5" id="HrN-3F-1mk"/>
-                                                <constraint firstItem="XF6-rb-ruK" firstAttribute="leading" secondItem="4JG-Up-ITp" secondAttribute="leading" constant="130" id="xLy-x8-hea"/>
+                                                <constraint firstItem="XF6-rb-ruK" firstAttribute="leading" secondItem="4JG-Up-ITp" secondAttribute="leading" constant="110" id="xLy-x8-hea"/>
                                                 <constraint firstAttribute="bottom" secondItem="XF6-rb-ruK" secondAttribute="bottom" constant="5" id="yzY-LF-uB4"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="human"/>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8Cw-Bo-jyL">
@@ -482,12 +522,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qY9-Wo-Sn7">
-                                                    <rect key="frame" x="120" y="5" width="174" height="33.5"/>
+                                                    <rect key="frame" x="110" y="5" width="194" height="33.5"/>
                                                     <state key="normal" title="◆起業家支援センター◆">
                                                         <color key="titleColor" red="0.56022846699999995" green="0.34207260610000001" blue="0.29017573600000002" alpha="0.78644049660000004" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="house1"/>
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <segue destination="dS9-v1-Xe6" kind="show" id="LUz-6S-dor"/>
@@ -495,10 +537,10 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="qY9-Wo-Sn7" secondAttribute="trailing" constant="120" id="Gib-7r-h4W"/>
+                                                <constraint firstAttribute="trailing" secondItem="qY9-Wo-Sn7" secondAttribute="trailing" constant="110" id="Gib-7r-h4W"/>
                                                 <constraint firstItem="qY9-Wo-Sn7" firstAttribute="top" secondItem="KzD-KU-unk" secondAttribute="top" constant="5" id="Snf-A6-mDI"/>
                                                 <constraint firstAttribute="bottom" secondItem="qY9-Wo-Sn7" secondAttribute="bottom" constant="5" id="dV8-xl-Jzr"/>
-                                                <constraint firstItem="qY9-Wo-Sn7" firstAttribute="leading" secondItem="KzD-KU-unk" secondAttribute="leading" constant="120" id="xCd-aT-nAd"/>
+                                                <constraint firstItem="qY9-Wo-Sn7" firstAttribute="leading" secondItem="KzD-KU-unk" secondAttribute="leading" constant="110" id="xCd-aT-nAd"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -510,12 +552,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UkG-Bl-vM3">
-                                                    <rect key="frame" x="150" y="5" width="114" height="33.5"/>
+                                                    <rect key="frame" x="135" y="5" width="144" height="33.5"/>
                                                     <state key="normal" title="◆なかやま荘◆">
                                                         <color key="titleColor" red="0.56022846699999995" green="0.34207260610000001" blue="0.29017573600000002" alpha="0.78644049660000004" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="house2"/>
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <segue destination="o2D-ac-ogf" kind="show" id="p8O-kp-fp7"/>
@@ -524,8 +568,8 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="UkG-Bl-vM3" secondAttribute="bottom" constant="5" id="R4i-W8-iWE"/>
-                                                <constraint firstAttribute="trailing" secondItem="UkG-Bl-vM3" secondAttribute="trailing" constant="150" id="Uxi-WC-HeZ"/>
-                                                <constraint firstItem="UkG-Bl-vM3" firstAttribute="leading" secondItem="zYa-v5-q5u" secondAttribute="leading" constant="150" id="aDG-x0-YN7"/>
+                                                <constraint firstAttribute="trailing" secondItem="UkG-Bl-vM3" secondAttribute="trailing" constant="135" id="Uxi-WC-HeZ"/>
+                                                <constraint firstItem="UkG-Bl-vM3" firstAttribute="leading" secondItem="zYa-v5-q5u" secondAttribute="leading" constant="135" id="aDG-x0-YN7"/>
                                                 <constraint firstItem="UkG-Bl-vM3" firstAttribute="top" secondItem="zYa-v5-q5u" secondAttribute="top" constant="5" id="h0d-De-cqf"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -555,7 +599,8 @@
                         </connections>
                     </tableView>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heroModalAnimationTypeString" value="human"/>
                     </userDefinedRuntimeAttributes>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ooy-Q3-OJD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -570,8 +615,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AlC-dR-cU2">
-                                <rect key="frame" x="20" y="138" width="374" height="708"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3513" translatesAutoresizingMaskIntoConstraints="NO" id="aST-JH-Ntg">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AlC-dR-cU2">
+                                <rect key="frame" x="20" y="152" width="374" height="597"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">◆入浴可能時間 　午前10時から翌日午前8時 　(午前8時から午前10時は清掃時間) 　シャンプー、リンス、ボディソープ常備  ◆洗濯 　洗濯機2台、乾燥機1台  ◆自動販売機系3機
 
@@ -596,6 +645,11 @@
 　その他、地域協力隊関連のイベントが多数</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="house2"/>
+                                </userDefinedRuntimeAttributes>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -608,7 +662,7 @@
                         <viewLayoutGuide key="safeArea" id="gJT-fz-RjF"/>
                     </view>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="textView" destination="AlC-dR-cU2" id="RIz-N8-4W2"/>
@@ -616,7 +670,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qsz-At-7ZD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6128" y="1870"/>
+            <point key="canvasLocation" x="6127.536231884058" y="1869.6428571428571"/>
         </scene>
         <!--Text2 View Controller-->
         <scene sceneID="Wui-gd-1Ib">
@@ -626,8 +680,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZsO-64-jyv">
-                                <rect key="frame" x="20" y="138" width="374" height="708"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3525" translatesAutoresizingMaskIntoConstraints="NO" id="sOL-iL-1JS">
+                                <rect key="frame" x="0.0" y="88" width="414" height="716"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZsO-64-jyv">
+                                <rect key="frame" x="20" y="140" width="374" height="616"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">◆住所
 岩手県八幡平市大更35-62
@@ -659,6 +717,11 @@
 　施設は「汚さない事」を大前提にご利用下さい。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="house1"/>
+                                </userDefinedRuntimeAttributes>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -666,12 +729,13 @@
                             <constraint firstItem="SYe-hF-7ta" firstAttribute="trailing" secondItem="ZsO-64-jyv" secondAttribute="trailing" constant="20" id="4pT-Fm-190"/>
                             <constraint firstItem="ZsO-64-jyv" firstAttribute="leading" secondItem="SYe-hF-7ta" secondAttribute="leading" constant="20" id="AZ6-SF-Acl"/>
                             <constraint firstItem="ZsO-64-jyv" firstAttribute="top" secondItem="SYe-hF-7ta" secondAttribute="top" constant="50" id="Y4O-Ub-Kgb"/>
-                            <constraint firstAttribute="bottom" secondItem="ZsO-64-jyv" secondAttribute="bottom" constant="50" id="b2a-x4-sxW"/>
+                            <constraint firstAttribute="bottom" secondItem="ZsO-64-jyv" secondAttribute="bottom" constant="90" id="b2a-x4-sxW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SYe-hF-7ta"/>
                     </view>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heroModalAnimationTypeString" value="house1"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="textView" destination="ZsO-64-jyv" id="HMk-vb-Nxz"/>
@@ -679,7 +743,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9IT-Ol-Xu8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6128" y="1167"/>
+            <point key="canvasLocation" x="6127.536231884058" y="1166.5178571428571"/>
         </scene>
         <!--Text View Controller-->
         <scene sceneID="ypu-Ba-ciK">
@@ -689,8 +753,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ccW-6Z-5fc">
-                                <rect key="frame" x="20" y="138" width="374" height="625"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3518" translatesAutoresizingMaskIntoConstraints="NO" id="n2h-vy-Rgk">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" contentInsetAdjustmentBehavior="never" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ccW-6Z-5fc">
+                                <rect key="frame" x="20" y="136" width="374" height="644"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">◆ハウスルール総則
 ・本ルールを守れない人は 　即時退去とし、キャンプからも除名します。
@@ -725,7 +793,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ccW-6Z-5fc" firstAttribute="top" secondItem="yId-dW-cRQ" secondAttribute="top" constant="50" id="cOo-6n-9ap"/>
-                            <constraint firstItem="yId-dW-cRQ" firstAttribute="bottom" secondItem="ccW-6Z-5fc" secondAttribute="bottom" constant="50" id="siZ-65-KLc"/>
+                            <constraint firstItem="yId-dW-cRQ" firstAttribute="bottom" secondItem="ccW-6Z-5fc" secondAttribute="bottom" constant="90" id="siZ-65-KLc"/>
                             <constraint firstItem="yId-dW-cRQ" firstAttribute="trailing" secondItem="ccW-6Z-5fc" secondAttribute="trailing" constant="20" id="u5U-4x-KTQ"/>
                             <constraint firstItem="ccW-6Z-5fc" firstAttribute="leading" secondItem="yId-dW-cRQ" secondAttribute="leading" constant="20" id="zwG-xO-t3L"/>
                         </constraints>
@@ -733,6 +801,7 @@
                     </view>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heroModalAnimationTypeString" value="house"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="textView" destination="ccW-6Z-5fc" id="aJT-vC-pal"/>
@@ -752,6 +821,11 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="電話背景.2jpg" translatesAutoresizingMaskIntoConstraints="NO" id="K3v-pq-m0M">
                                 <rect key="frame" x="5" y="93" width="404" height="715"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="call"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MdY-iy-ezX">
                                 <rect key="frame" x="180" y="601" width="30" height="30"/>
@@ -794,7 +868,7 @@
                     </view>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
-                        <userDefinedRuntimeAttribute type="string" keyPath="heroModalAnimationTypeString" value="car"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heroModalAnimationTypeString" value="call"/>
                     </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RgB-9K-UGV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -810,36 +884,45 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2019-06-17 20.54.02" translatesAutoresizingMaskIntoConstraints="NO" id="yQc-ud-mzm">
-                                <rect key="frame" x="20" y="98" width="374" height="198"/>
+                                <rect key="frame" x="20" y="98" width="374" height="210"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交通案内・アクセス" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnt-90-rRt">
-                                <rect key="frame" x="110" y="326" width="194" height="26"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交通案内・アクセス" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnt-90-rRt">
+                                <rect key="frame" x="110" y="328" width="194" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tnt-90-rRt" secondAttribute="height" multiplier="97:13" id="soZ-nt-ZX1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.4913308898" green="0.8323031689" blue="0.92362735569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スクリーンショット 2019-06-17 20.52.31" translatesAutoresizingMaskIntoConstraints="NO" id="8iY-i4-OwW">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2019-06-17 20.52.31" translatesAutoresizingMaskIntoConstraints="NO" id="8iY-i4-OwW">
                                 <rect key="frame" x="20" y="374" width="374" height="409"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8iY-i4-OwW" secondAttribute="height" multiplier="374:409" id="AHr-Lz-CxJ"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="car"/>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="7Dr-Di-POc" firstAttribute="bottom" secondItem="8iY-i4-OwW" secondAttribute="bottom" constant="30" id="2s6-vD-UuQ"/>
                             <constraint firstItem="yQc-ud-mzm" firstAttribute="leading" secondItem="7Dr-Di-POc" secondAttribute="leading" constant="20" id="2ud-kF-vaz"/>
                             <constraint firstItem="7Dr-Di-POc" firstAttribute="trailing" secondItem="tnt-90-rRt" secondAttribute="trailing" constant="110" id="7ng-rl-Y1O"/>
+                            <constraint firstItem="8iY-i4-OwW" firstAttribute="leading" secondItem="7Dr-Di-POc" secondAttribute="leading" constant="20" id="P8n-5y-V9N"/>
                             <constraint firstItem="tnt-90-rRt" firstAttribute="leading" secondItem="7Dr-Di-POc" secondAttribute="leading" constant="110" id="TBN-Bn-8CA"/>
                             <constraint firstItem="7Dr-Di-POc" firstAttribute="trailing" secondItem="yQc-ud-mzm" secondAttribute="trailing" constant="20" id="XeX-PF-EEb"/>
+                            <constraint firstItem="7Dr-Di-POc" firstAttribute="trailing" secondItem="8iY-i4-OwW" secondAttribute="trailing" constant="20" id="Xp6-bo-Jxf"/>
+                            <constraint firstItem="8iY-i4-OwW" firstAttribute="top" secondItem="tnt-90-rRt" secondAttribute="bottom" constant="20" id="dxO-Gh-mXB"/>
                             <constraint firstItem="yQc-ud-mzm" firstAttribute="top" secondItem="7Dr-Di-POc" secondAttribute="top" constant="10" id="eYm-bg-i7i"/>
                             <constraint firstItem="yQc-ud-mzm" firstAttribute="centerX" secondItem="iUJ-vy-sxo" secondAttribute="centerX" id="fbe-jv-UPb"/>
-                            <constraint firstItem="tnt-90-rRt" firstAttribute="top" secondItem="yQc-ud-mzm" secondAttribute="bottom" constant="30" id="jTM-Q2-rYX"/>
+                            <constraint firstItem="tnt-90-rRt" firstAttribute="top" secondItem="yQc-ud-mzm" secondAttribute="bottom" constant="20" id="jTM-Q2-rYX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7Dr-Di-POc"/>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="net"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="car"/>
                             <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
                         </userDefinedRuntimeAttributes>
                     </view>
@@ -860,6 +943,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3518" translatesAutoresizingMaskIntoConstraints="NO" id="rIQ-ea-hdF">
+                                <rect key="frame" x="-1" y="88" width="415" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
                                 <rect key="frame" x="207" y="448" width="0.0" height="0.0"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1036,17 +1123,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3519" translatesAutoresizingMaskIntoConstraints="NO" id="FIV-yL-Zm2">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="water"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="風呂４" translatesAutoresizingMaskIntoConstraints="NO" id="x45-3W-cRv">
                                 <rect key="frame" x="90" y="93" width="234" height="158.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="x45-3W-cRv" secondAttribute="height" multiplier="235:159" id="1sl-Gn-fhN"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="water"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="風呂２" translatesAutoresizingMaskIntoConstraints="NO" id="Yq8-84-Ivd">
                                 <rect key="frame" x="60" y="516" width="294" height="220.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Yq8-84-Ivd" secondAttribute="height" multiplier="4:3" id="85i-oN-JS7"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="water"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大浴場マグマの湯" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jtk-IJ-hHJ">
                                 <rect key="frame" x="100" y="271.5" width="214" height="32.5"/>
@@ -1066,6 +1172,10 @@
                                 <string key="text">地下２千メートルから噴出した蒸気を温泉として 利用してマグマの湯と言われている珍しい温泉です。            松川渓谷の上流にある地熱発電所から引いています。 泉質は単純硫黄温泉で、無色無臭のクセのない湯です。 気軽にご利用になれる温泉で ゆったりとした時間をお過ごし下さい。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabledForSubviews" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1087,6 +1197,7 @@
                     </view>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heroModalAnimationTypeString" value="water"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="textView" destination="YVY-vQ-V5X" id="1Ru-yp-OQA"/>
@@ -1094,7 +1205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u7h-2Q-jcb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3980" y="727"/>
+            <point key="canvasLocation" x="3979.7101449275365" y="726.5625"/>
         </scene>
         <!--Tab View Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -1104,8 +1215,9 @@
                     <tabBar key="tabBar" contentMode="bottom" barStyle="black" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.4913308898" green="0.8323031689" blue="0.92362735569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.4913308898" green="0.8323031689" blue="0.92362735569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
@@ -1147,6 +1259,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3523-1" translatesAutoresizingMaskIntoConstraints="NO" id="fG4-gf-z2l">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2019-06-17 9.50.26" translatesAutoresizingMaskIntoConstraints="NO" id="Hfn-b1-fdB">
                                 <rect key="frame" x="20" y="142" width="374" height="286"/>
                                 <constraints>
@@ -1207,6 +1323,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3521" translatesAutoresizingMaskIntoConstraints="NO" id="40g-Xx-DPI">
+                                <rect key="frame" x="3" y="88" width="411" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shisetu01" translatesAutoresizingMaskIntoConstraints="NO" id="7IO-B9-MtX">
                                 <rect key="frame" x="20" y="93" width="177" height="120"/>
                                 <constraints>
@@ -1379,6 +1499,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qmc-gR-NCP" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="館内案内" image="非常口のあの人のアイコン" id="DNX-tJ-XKT">
+                        <color key="badgeColor" red="0.4913308898" green="0.8323031689" blue="0.92362735569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -1408,6 +1529,15 @@
         <image name="3631f_0004946919_1" width="240" height="180"/>
         <image name="46da1_0001950732_15" width="240" height="180"/>
         <image name="5771e_0003932619_11" width="240" height="180"/>
+        <image name="IMG_3513" width="744" height="1392"/>
+        <image name="IMG_3516" width="640" height="960"/>
+        <image name="IMG_3518" width="640" height="427"/>
+        <image name="IMG_3519" width="750" height="750"/>
+        <image name="IMG_3521" width="750" height="937"/>
+        <image name="IMG_3522" width="750" height="1333"/>
+        <image name="IMG_3523" width="640" height="640"/>
+        <image name="IMG_3523-1" width="640" height="640"/>
+        <image name="IMG_3525" width="750" height="500"/>
         <image name="Wi-Fi２-1" width="2030" height="2400"/>
         <image name="illustrain10-norimono17" width="600" height="600"/>
         <image name="images" width="225" height="225"/>
@@ -1427,7 +1557,6 @@
         <image name="shisetu08" width="210" height="140"/>
         <image name="なかやま荘" width="814" height="214"/>
         <image name="キャリーバッグ1" width="30" height="30"/>
-        <image name="スクリーンショット 2019-06-17 15.07.19" width="550" height="194"/>
         <image name="スクリーンショット 2019-06-17 16.07.08" width="946" height="194"/>
         <image name="スクリーンショット 2019-06-17 20.52.31" width="538" height="492"/>
         <image name="スクリーンショット 2019-06-17 20.54.02" width="636" height="198"/>
