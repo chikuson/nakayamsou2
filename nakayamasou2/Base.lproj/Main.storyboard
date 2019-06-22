@@ -287,8 +287,9 @@
                                 <rect key="frame" x="87" y="298" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <string key="text">SSID　8tabi.style
+パス　hachimantai</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WIFI 設定" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dd5-qb-gUl">
@@ -866,99 +867,114 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="観光案内" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyW-xK-MuM">
-                                <rect key="frame" x="0.0" y="88" width="414" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="観光案内" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyW-xK-MuM">
+                                <rect key="frame" x="1" y="93" width="414" height="47"/>
                                 <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.154716086" green="1" blue="0.05013484738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="40"/>
                                 <color key="textColor" red="0.154716086" green="1" blue="0.05013484738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0269c_0000673466_1" translatesAutoresizingMaskIntoConstraints="NO" id="JOI-iE-yiP">
-                                <rect key="frame" x="20" y="144" width="137" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0269c_0000673466_1" translatesAutoresizingMaskIntoConstraints="NO" id="JOI-iE-yiP">
+                                <rect key="frame" x="20" y="145" width="177" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="QcQ-kg-TpN"/>
+                                    <constraint firstAttribute="width" constant="177" id="b8E-1C-egw"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="08bf1_0002075497_5" translatesAutoresizingMaskIntoConstraints="NO" id="J17-zv-xpg">
-                                <rect key="frame" x="258" y="144" width="136" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="08bf1_0002075497_5" translatesAutoresizingMaskIntoConstraints="NO" id="J17-zv-xpg">
+                                <rect key="frame" x="217" y="145" width="177" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177" id="c8M-ex-vMD"/>
+                                    <constraint firstAttribute="height" constant="120" id="x2Q-7K-HXG"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="28640_0000673502_1" translatesAutoresizingMaskIntoConstraints="NO" id="Fzn-gI-K8e">
-                                <rect key="frame" x="20" y="320" width="137" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="28640_0000673502_1" translatesAutoresizingMaskIntoConstraints="NO" id="Fzn-gI-K8e">
+                                <rect key="frame" x="20" y="294" width="177" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="4im-98-z2D"/>
+                                    <constraint firstAttribute="width" constant="177" id="e68-z3-e3z"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2f852_0004946953_1" translatesAutoresizingMaskIntoConstraints="NO" id="S06-Zi-eVf">
-                                <rect key="frame" x="20" y="498" width="137" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2f852_0004946953_1" translatesAutoresizingMaskIntoConstraints="NO" id="S06-Zi-eVf">
+                                <rect key="frame" x="20" y="443" width="177" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="Och-rT-09g"/>
+                                    <constraint firstAttribute="width" constant="177" id="aqc-qv-dph"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="46da1_0001950732_15" translatesAutoresizingMaskIntoConstraints="NO" id="g57-uq-1i7">
-                                <rect key="frame" x="20" y="656" width="137" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="46da1_0001950732_15" translatesAutoresizingMaskIntoConstraints="NO" id="g57-uq-1i7">
+                                <rect key="frame" x="20" y="592" width="177" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="EZM-6I-EDp"/>
+                                    <constraint firstAttribute="width" constant="177" id="e6r-e1-Nf1"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5771e_0003932619_11" translatesAutoresizingMaskIntoConstraints="NO" id="7b7-t1-vUZ">
-                                <rect key="frame" x="273" y="656" width="105" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5771e_0003932619_11" translatesAutoresizingMaskIntoConstraints="NO" id="7b7-t1-vUZ">
+                                <rect key="frame" x="217" y="591.5" width="177" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="ULO-Zi-BlH"/>
+                                    <constraint firstAttribute="width" constant="177" id="uaV-ha-hNv"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3631f_0004946919_1" translatesAutoresizingMaskIntoConstraints="NO" id="pQa-Px-S2j">
-                                <rect key="frame" x="257" y="498" width="137" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3631f_0004946919_1" translatesAutoresizingMaskIntoConstraints="NO" id="pQa-Px-S2j">
+                                <rect key="frame" x="217" y="442.5" width="177" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="0jP-OE-xOv"/>
+                                    <constraint firstAttribute="width" constant="177" id="n0f-78-Sy2"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="七滝" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdt-Z8-9SY">
-                                <rect key="frame" x="304" y="605" width="35" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="　　七滝　　　" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdt-Z8-9SY">
+                                <rect key="frame" x="242" y="565.5" width="122" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2f0a5_0001451950_1" translatesAutoresizingMaskIntoConstraints="NO" id="NvG-Yv-UO3">
-                                <rect key="frame" x="257" y="320" width="137" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2f0a5_0001451950_1" translatesAutoresizingMaskIntoConstraints="NO" id="NvG-Yv-UO3">
+                                <rect key="frame" x="217" y="293.5" width="177" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177" id="blE-58-hNW"/>
+                                    <constraint firstAttribute="height" constant="120" id="kNf-Ge-BF8"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="道の駅 にしね" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sR-5y-idL">
-                                <rect key="frame" x="67" y="280" width="109" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="道の駅 にしね" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sR-5y-idL">
+                                <rect key="frame" x="50" y="268" width="109" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="四季館 彩冬" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGz-AL-gsd">
-                                <rect key="frame" x="67" y="772" width="92" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="　四季館 彩冬　" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGz-AL-gsd">
+                                <rect key="frame" x="50" y="715" width="126" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ドラゴンアイ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8W-CV-b5A">
-                                <rect key="frame" x="67" y="616" width="104" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ドラゴンアイ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8W-CV-b5A">
+                                <rect key="frame" x="50" y="566" width="104" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="安比高原" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zK4-Mx-kl5">
-                                <rect key="frame" x="305" y="448" width="70" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 　安比高原　" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zK4-Mx-kl5">
+                                <rect key="frame" x="255.5" y="416.5" width="108.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="不動の滝" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSU-e4-7yq">
-                                <rect key="frame" x="67" y="438" width="70" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="　不動の滝　" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSU-e4-7yq">
+                                <rect key="frame" x="50" y="417" width="104" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="松川温泉" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfV-fG-jg3">
-                                <rect key="frame" x="305" y="278" width="70" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="　松川温泉　" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfV-fG-jg3">
+                                <rect key="frame" x="260" y="268" width="104" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="彩雲荘" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCU-kb-qLP">
-                                <rect key="frame" x="305" y="771" width="52" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="　　彩雲荘　　" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCU-kb-qLP">
+                                <rect key="frame" x="242.5" y="714.5" width="121.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -966,8 +982,43 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="zK4-Mx-kl5" secondAttribute="trailing" constant="50" id="0aR-0o-PnG"/>
+                            <constraint firstItem="lyW-xK-MuM" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="1" id="12J-2o-6uz"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="NvG-Yv-UO3" secondAttribute="trailing" constant="20" id="1sE-MA-C3W"/>
+                            <constraint firstItem="Fzn-gI-K8e" firstAttribute="top" secondItem="3sR-5y-idL" secondAttribute="bottom" constant="5" id="3vh-wM-saJ"/>
+                            <constraint firstItem="XfV-fG-jg3" firstAttribute="top" secondItem="J17-zv-xpg" secondAttribute="bottom" constant="3" id="46q-f2-Mmt"/>
+                            <constraint firstItem="3sR-5y-idL" firstAttribute="top" secondItem="JOI-iE-yiP" secondAttribute="bottom" constant="3" id="5Zx-c9-C2g"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="CCU-kb-qLP" secondAttribute="trailing" constant="50" id="73r-2K-LCb"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="pQa-Px-S2j" secondAttribute="trailing" constant="20" id="7Wa-Rs-aVL"/>
+                            <constraint firstItem="gGz-AL-gsd" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="50" id="9Bb-rC-Myf"/>
+                            <constraint firstItem="3sR-5y-idL" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="50" id="Agp-Tk-tlp"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="J17-zv-xpg" secondAttribute="trailing" constant="20" id="CrN-R0-0av"/>
+                            <constraint firstItem="lyW-xK-MuM" firstAttribute="trailing" secondItem="O1u-W8-tvY" secondAttribute="trailing" constant="1" id="ErB-uT-xif"/>
+                            <constraint firstItem="S06-Zi-eVf" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="20" id="EwX-L3-SI2"/>
+                            <constraint firstItem="uSU-e4-7yq" firstAttribute="top" secondItem="Fzn-gI-K8e" secondAttribute="bottom" constant="3" id="Jav-63-e5A"/>
+                            <constraint firstItem="s8W-CV-b5A" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="50" id="L3k-Ic-ItV"/>
+                            <constraint firstItem="zK4-Mx-kl5" firstAttribute="top" secondItem="NvG-Yv-UO3" secondAttribute="bottom" constant="3" id="LEc-g7-JqM"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="7b7-t1-vUZ" secondAttribute="trailing" constant="20" id="Lvt-vf-ghu"/>
+                            <constraint firstItem="NvG-Yv-UO3" firstAttribute="top" secondItem="XfV-fG-jg3" secondAttribute="bottom" constant="5" id="Q8e-xx-m5D"/>
+                            <constraint firstItem="J17-zv-xpg" firstAttribute="top" secondItem="lyW-xK-MuM" secondAttribute="bottom" constant="5" id="QQj-rI-S6m"/>
+                            <constraint firstItem="Fzn-gI-K8e" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="20" id="RVn-fO-O3B"/>
+                            <constraint firstItem="7b7-t1-vUZ" firstAttribute="top" secondItem="cdt-Z8-9SY" secondAttribute="bottom" constant="5" id="T9H-dG-sh6"/>
+                            <constraint firstItem="JOI-iE-yiP" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="20" id="ezX-rE-1rN"/>
+                            <constraint firstItem="cdt-Z8-9SY" firstAttribute="top" secondItem="pQa-Px-S2j" secondAttribute="bottom" constant="3" id="hfL-8E-HUz"/>
+                            <constraint firstItem="lyW-xK-MuM" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="5" id="mO6-xc-7Kb"/>
+                            <constraint firstItem="pQa-Px-S2j" firstAttribute="top" secondItem="zK4-Mx-kl5" secondAttribute="bottom" constant="5" id="nBw-8u-vUs"/>
+                            <constraint firstItem="S06-Zi-eVf" firstAttribute="top" secondItem="uSU-e4-7yq" secondAttribute="bottom" constant="5" id="oNb-k7-vLl"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="cdt-Z8-9SY" secondAttribute="trailing" constant="50" id="qBz-v1-aRe"/>
                             <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
+                            <constraint firstItem="gGz-AL-gsd" firstAttribute="top" secondItem="g57-uq-1i7" secondAttribute="bottom" constant="3" id="qw1-TC-xjS"/>
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstItem="s8W-CV-b5A" firstAttribute="top" secondItem="S06-Zi-eVf" secondAttribute="bottom" constant="3" id="rea-nR-Xhf"/>
+                            <constraint firstItem="g57-uq-1i7" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="20" id="t4s-wr-c4t"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="XfV-fG-jg3" secondAttribute="trailing" constant="50" id="tKG-df-wW3"/>
+                            <constraint firstItem="JOI-iE-yiP" firstAttribute="top" secondItem="lyW-xK-MuM" secondAttribute="bottom" constant="5" id="uHI-aL-qWb"/>
+                            <constraint firstItem="g57-uq-1i7" firstAttribute="top" secondItem="s8W-CV-b5A" secondAttribute="bottom" constant="5" id="vWU-Q4-G1i"/>
+                            <constraint firstItem="uSU-e4-7yq" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="50" id="wyY-ID-qX5"/>
+                            <constraint firstItem="CCU-kb-qLP" firstAttribute="top" secondItem="7b7-t1-vUZ" secondAttribute="bottom" constant="3" id="xSh-Vd-BlZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
@@ -1073,7 +1124,7 @@
         <scene sceneID="mfp-Ld-F7f">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xUJ-Uq-2JQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="観光案内" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="観光案内" image="キャリーバッグ1" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qnu-eU-lh8">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -1302,7 +1353,7 @@
         <scene sceneID="Po5-AD-NBH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EVK-gS-xVM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="メイン画面" id="acW-dT-cKf">
+                    <tabBarItem key="tabBarItem" title="メイン画面" image="家のアイコン素材" id="acW-dT-cKf">
                         <inset key="largeContentSizeImageInsets" minX="0.0" minY="-75" maxX="0.0" maxY="-82"/>
                         <color key="badgeColor" red="0.154716086" green="1" blue="0.05013484738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
@@ -1327,7 +1378,7 @@
         <scene sceneID="1qF-qo-XVC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qmc-gR-NCP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="館内案内" id="DNX-tJ-XKT">
+                    <tabBarItem key="tabBarItem" title="館内案内" image="非常口のあの人のアイコン" id="DNX-tJ-XKT">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -1375,16 +1426,19 @@
         <image name="shisetu07" width="210" height="140"/>
         <image name="shisetu08" width="210" height="140"/>
         <image name="なかやま荘" width="814" height="214"/>
+        <image name="キャリーバッグ1" width="30" height="30"/>
         <image name="スクリーンショット 2019-06-17 15.07.19" width="550" height="194"/>
         <image name="スクリーンショット 2019-06-17 16.07.08" width="946" height="194"/>
         <image name="スクリーンショット 2019-06-17 20.52.31" width="538" height="492"/>
         <image name="スクリーンショット 2019-06-17 20.54.02" width="636" height="198"/>
         <image name="スクリーンショット 2019-06-17 9.48.05" width="868" height="728"/>
         <image name="スクリーンショット 2019-06-17 9.50.26" width="994" height="826"/>
+        <image name="家のアイコン素材" width="30" height="30"/>
         <image name="温泉２" width="151" height="153"/>
         <image name="起業" width="1912" height="1912"/>
         <image name="電話背景.2jpg" width="2465" height="3012"/>
         <image name="電話２" width="656" height="468"/>
+        <image name="非常口のあの人のアイコン" width="30" height="30"/>
         <image name="風呂２" width="300" height="225"/>
         <image name="風呂４" width="4032" height="3024"/>
     </resources>
