@@ -26,29 +26,31 @@ class MainViewController: UIViewController {//, UIPageViewControllerDataSource, 
     override func viewDidLoad() {
         super.viewDidLoad()
             // scrollViewの画面表示サイズを指定
-        scrollView = UIScrollView(frame: CGRect(x: 0, y: 200, width: self.view.frame.size.width, height: 200))
+        scrollView = UIScrollView(frame: CGRect(x: 0, y: 120, width: self.view.frame.size.width, height: 150))
         // scrollViewのサイズを指定（幅は1メニューに表示するViewの幅×ページ数）
-        scrollView.contentSize = CGSize(width: self.view.frame.size.width*3, height: 200)
+        scrollView.contentSize = CGSize(width: self.view.frame.size.width*3, height: 150)
         // scrollViewのデリゲートになる
         scrollView.delegate = self
         // メニュー単位のスクロールを可能にする
         scrollView.isPagingEnabled = true
         // 水平方向のスクロールインジケータを非表示にする
-        scrollView.showsHorizontalScrollIndicator = false
+        scrollView.showsHorizontalScrollIndicator = true
         self.view.addSubview(scrollView)
         
-        // scrollView上にUIImageViewをページ分追加する(今回は3ページ分)
-        let imageView1 = createImageView(x: 0, y: 0, width: self.view.frame.size.width, height: 150, image: "ry01")
+        // scrollView上にUIImageViewを追加
+        let imageView1 = createImageView(x: 0, y: 0, width: self.view.frame.size.width, height: 150, image: "IMG_3523-1")
         scrollView.addSubview(imageView1)
         
-        let imageView2 = createImageView(x: self.view.frame.size.width, y: 0, width: self.view.frame.size.width, height: 150, image: "ry02")
+        let imageView2 = createImageView(x: self.view.frame.size.width, y: 0, width: self.view.frame.size.width, height: 150, image: "IMG_3519")
         scrollView.addSubview(imageView2)
         
-        let imageView3 = createImageView(x: self.view.frame.size.width*2, y: 0, width: self.view.frame.size.width, height: 150, image: "ry03")
+        let imageView3 = createImageView(x: self.view.frame.size.width*2, y: 0, width: self.view.frame.size.width, height: 150, image: "IMG_3526")
         scrollView.addSubview(imageView3)
         
-        // pageControlの表示位置とサイズの設定
-        pageControl = UIPageControl(frame: CGRect(x: 0, y: 370, width: self.view.frame.size.width, height: 30))
+        
+        
+        // pageControlの表示位置とサイズの設定  変更箇所
+        pageControl = UIPageControl(frame: CGRect(x: 0, y: 310, width: self.view.frame.size.width, height: 20))
         // pageControlのページ数を設定
         pageControl.numberOfPages = 3
         // pageControlのドットの色
