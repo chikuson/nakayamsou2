@@ -23,8 +23,6 @@ class TabViewController: UITabBarController {
         return rgbColor(rgbValue: 0xFAF9F9)
     }
     
-    // #FFFFFFのように色を指定できるようにするメソッド！色が使いやすくなる。
-    // ここでしか使わないので privateメソッドにする。
     private class func rgbColor(rgbValue: UInt) -> UIColor{
         return UIColor(
             red:   CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
@@ -40,11 +38,10 @@ class TabViewController: UITabBarController {
         // Do any additional setup after loading the view.
         
         // -----＊＊追記部分＊＊----- //
-        // アイコンの色を変更できます！
+        // アイコンの色
         UITabBar.appearance().tintColor = TabViewController.secondary
-        // 背景色を変更できます！
+        // 背景色を変更
         UITabBar.appearance().barTintColor = TabViewController.primary
-        // -----＊＊追記部分＊＊----- //
     }
     
 
