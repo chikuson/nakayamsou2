@@ -21,6 +21,7 @@
 		00E0526622B68EDD0041D058 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0526522B68EDD0041D058 /* MainViewController.swift */; };
 		00FF076722B8B1180031A67A /* numberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF076622B8B1180031A67A /* numberViewController.swift */; };
 		708F9D2703602763BE575E99 /* Pods_nakayamasou2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495C9A9251AEA635BCAAAA9B /* Pods_nakayamasou2.framework */; };
+		B43D889122BF006E00BBFF0F /* goolemapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D889022BF006E00BBFF0F /* goolemapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		00FF076622B8B1180031A67A /* numberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberViewController.swift; sourceTree = "<group>"; };
 		2CF187FF5661DD89942EB538 /* Pods-nakayamasou2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nakayamasou2.debug.xcconfig"; path = "Target Support Files/Pods-nakayamasou2/Pods-nakayamasou2.debug.xcconfig"; sourceTree = "<group>"; };
 		495C9A9251AEA635BCAAAA9B /* Pods_nakayamasou2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nakayamasou2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43D889022BF006E00BBFF0F /* goolemapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goolemapViewController.swift; sourceTree = "<group>"; };
 		B6C4A25C43EC9B1F0E03DA8C /* Pods-nakayamasou2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nakayamasou2.release.xcconfig"; path = "Target Support Files/Pods-nakayamasou2/Pods-nakayamasou2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 				00AD6ACC22BBE43A0016BE5E /* text2ViewController.swift */,
 				00AD6ACE22BBE44F0016BE5E /* text3ViewController.swift */,
 				00AD6AD022BC01A50016BE5E /* text4ViewController.swift */,
+				B43D889022BF006E00BBFF0F /* goolemapViewController.swift */,
 			);
 			path = nakayamasou2;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				0047CEBB22B277430064B349 /* AppDelegate.swift in Sources */,
 				00AD6ACD22BBE43A0016BE5E /* text2ViewController.swift in Sources */,
 				0047CEBD22B277430064B349 /* FirstViewController.swift in Sources */,
+				B43D889122BF006E00BBFF0F /* goolemapViewController.swift in Sources */,
 				0053B14B22B737DB007A1AD4 /* TabViewController.swift in Sources */,
 				00E0526622B68EDD0041D058 /* MainViewController.swift in Sources */,
 				00AD6ACB22BBDFE30016BE5E /* textViewController.swift in Sources */,

@@ -26,14 +26,14 @@ class MainViewController: UIViewController {//, UIPageViewControllerDataSource, 
     override func viewDidLoad() {
         super.viewDidLoad()
             // scrollViewの画面表示サイズを指定
-        scrollView = UIScrollView(frame: CGRect(x: 0, y: 120, width: self.view.frame.size.width, height: 150))
-        // scrollViewのサイズを指定（幅は1メニューに表示するViewの幅×ページ数）
+        scrollView = UIScrollView(frame: CGRect(x: 0, y: 180, width: self.view.frame.size.width, height: 180))
+        // scrollViewのサイズを指定
         scrollView.contentSize = CGSize(width: self.view.frame.size.width*3, height: 150)
-        // scrollViewのデリゲートになる
+        // scrollViewのデリゲート
         scrollView.delegate = self
-        // メニュー単位のスクロールを可能にする
+        // スクロールを可能にする
         scrollView.isPagingEnabled = true
-        // 水平方向のスクロールインジケータを非表示にする
+        // スクロールインジケータを表示にする
         scrollView.showsHorizontalScrollIndicator = true
         self.view.addSubview(scrollView)
         
