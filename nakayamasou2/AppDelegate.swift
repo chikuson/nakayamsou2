@@ -22,11 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func changeNavigationBarColor() {
         // 全てのNavigation Barの色を変更する
         // Navigation Bar の背景色の変更
-        UINavigationBar.appearance().barTintColor = TabViewController.primary
-        // Navigation Bar の文字色の変更
-        UINavigationBar.appearance().tintColor = TabViewController.secondary
-        // Navigation Bar のタイトルの文字色の変更
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: TabViewController.background]
+//        UINavigationBar.appearance().barTintColor = TabViewController.primary
+//        // Navigation Bar の文字色の変更
+//        UINavigationBar.appearance().tintColor = TabViewController.secondary
+//        // Navigation Bar のタイトルの文字色の変更
+//        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: TabViewController.background]
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -53,4 +53,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
+
 

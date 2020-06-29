@@ -21,20 +21,22 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3513" highlightedImage="Wi-Fi２-1" translatesAutoresizingMaskIntoConstraints="NO" id="p6w-uR-qtL">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nakayama logo1610_アートボード １ (1)" translatesAutoresizingMaskIntoConstraints="NO" id="dMX-Je-b3w">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="nakayama logo1610_アートボード １ (1)" translatesAutoresizingMaskIntoConstraints="NO" id="aa5-YO-zdR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="p6w-uR-qtL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4RJ-t8-lt3"/>
-                            <constraint firstItem="dMX-Je-b3w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Anf-tc-R9S"/>
-                            <constraint firstAttribute="bottom" secondItem="p6w-uR-qtL" secondAttribute="bottom" id="FPz-xS-aAE"/>
-                            <constraint firstItem="p6w-uR-qtL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jun-cE-1To"/>
-                            <constraint firstItem="dMX-Je-b3w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YYa-Jy-cmG"/>
-                            <constraint firstItem="p6w-uR-qtL" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="i3d-7E-gvF"/>
-                            <constraint firstItem="dMX-Je-b3w" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="q5R-2i-WXh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dMX-Je-b3w" secondAttribute="bottom" id="qof-Kq-DsA"/>
+                            <constraint firstItem="aa5-YO-zdR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="7Gb-6H-dJ6"/>
+                            <constraint firstAttribute="trailing" secondItem="p6w-uR-qtL" secondAttribute="trailing" id="9Ar-Sd-sRj"/>
+                            <constraint firstItem="p6w-uR-qtL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="AKA-eJ-8P4"/>
+                            <constraint firstAttribute="bottom" secondItem="aa5-YO-zdR" secondAttribute="bottom" id="DdU-tg-xAo"/>
+                            <constraint firstItem="aa5-YO-zdR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ORf-d8-EzH"/>
+                            <constraint firstItem="aa5-YO-zdR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="YA1-2T-zo0"/>
+                            <constraint firstItem="aa5-YO-zdR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="efT-Be-7HI"/>
+                            <constraint firstAttribute="bottom" secondItem="p6w-uR-qtL" secondAttribute="bottom" id="jby-9t-ZjQ"/>
+                            <constraint firstItem="aa5-YO-zdR" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="nne-lI-fj1"/>
+                            <constraint firstItem="p6w-uR-qtL" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="pQt-xv-C8w"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -47,6 +49,6 @@
     <resources>
         <image name="IMG_3513" width="744" height="1392"/>
         <image name="Wi-Fi２-1" width="2030" height="2400"/>
-        <image name="nakayama logo1610_アートボード １ (1)" width="1024" height="1024"/>
+        <image name="nakayama logo1610_アートボード １ (1)" width="1024" height="1024"/>
     </resources>
 </document>

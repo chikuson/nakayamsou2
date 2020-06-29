@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0009CD492326910E00E0F9EB /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009CD482326910E00E0F9EB /* CollectionViewController.swift */; };
+		002265052338CACD005AFE66 /* EatSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002265042338CACD005AFE66 /* EatSubViewController.swift */; };
+		002265092338D30B005AFE66 /* EatCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002265082338D30B005AFE66 /* EatCollectionViewController.swift */; };
+		0022650D2349F3CC005AFE66 /* UIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0022650C2349F3CC005AFE66 /* UIView.xib */; };
+		0027D4FE232A718B00F3EE0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0027D4FD232A718B00F3EE0F /* ViewController.swift */; };
+		0027D500232BDAC500F3EE0F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0027D4FF232BDAC500F3EE0F /* MessageUI.framework */; };
+		0027D502232BDB4300F3EE0F /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0027D501232BDB4300F3EE0F /* SettingTableViewController.swift */; };
+		0027D506232C8B2800F3EE0F /* 390214194mp4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0027D505232C8B2800F3EE0F /* 390214194mp4.mp4 */; };
 		0047CEBB22B277430064B349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0047CEBA22B277430064B349 /* AppDelegate.swift */; };
 		0047CEBD22B277430064B349 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0047CEBC22B277430064B349 /* FirstViewController.swift */; };
 		0047CEBF22B277430064B349 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0047CEBE22B277430064B349 /* SecondViewController.swift */; };
@@ -18,6 +26,7 @@
 		00AD6ACD22BBE43A0016BE5E /* text2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD6ACC22BBE43A0016BE5E /* text2ViewController.swift */; };
 		00AD6ACF22BBE44F0016BE5E /* text3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD6ACE22BBE44F0016BE5E /* text3ViewController.swift */; };
 		00AD6AD122BC01A50016BE5E /* text4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD6AD022BC01A50016BE5E /* text4ViewController.swift */; };
+		00B3B6D8234A305B00C84273 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3B6D7234A305B00C84273 /* XibView.swift */; };
 		00E0526622B68EDD0041D058 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0526522B68EDD0041D058 /* MainViewController.swift */; };
 		00FF076722B8B1180031A67A /* numberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF076622B8B1180031A67A /* numberViewController.swift */; };
 		708F9D2703602763BE575E99 /* Pods_nakayamasou2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495C9A9251AEA635BCAAAA9B /* Pods_nakayamasou2.framework */; };
@@ -25,6 +34,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0009CD482326910E00E0F9EB /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		002265042338CACD005AFE66 /* EatSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatSubViewController.swift; sourceTree = "<group>"; };
+		002265082338D30B005AFE66 /* EatCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatCollectionViewController.swift; sourceTree = "<group>"; };
+		0022650C2349F3CC005AFE66 /* UIView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIView.xib; sourceTree = "<group>"; };
+		0027D4FD232A718B00F3EE0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0027D4FF232BDAC500F3EE0F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0027D501232BDB4300F3EE0F /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		0027D505232C8B2800F3EE0F /* 390214194mp4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 390214194mp4.mp4; sourceTree = "<group>"; };
 		0047CEB722B277430064B349 /* nakayamasou2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nakayamasou2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0047CEBA22B277430064B349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0047CEBC22B277430064B349 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +55,7 @@
 		00AD6ACC22BBE43A0016BE5E /* text2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text2ViewController.swift; sourceTree = "<group>"; };
 		00AD6ACE22BBE44F0016BE5E /* text3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text3ViewController.swift; sourceTree = "<group>"; };
 		00AD6AD022BC01A50016BE5E /* text4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text4ViewController.swift; sourceTree = "<group>"; };
+		00B3B6D7234A305B00C84273 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		00E0526522B68EDD0041D058 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		00FF076622B8B1180031A67A /* numberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberViewController.swift; sourceTree = "<group>"; };
 		2CF187FF5661DD89942EB538 /* Pods-nakayamasou2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nakayamasou2.debug.xcconfig"; path = "Target Support Files/Pods-nakayamasou2/Pods-nakayamasou2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0027D500232BDAC500F3EE0F /* MessageUI.framework in Frameworks */,
 				708F9D2703602763BE575E99 /* Pods_nakayamasou2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,9 +77,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00032073232A251300C39491 /* textViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00AD6ACA22BBDFE30016BE5E /* textViewController.swift */,
+				00AD6ACC22BBE43A0016BE5E /* text2ViewController.swift */,
+				00AD6ACE22BBE44F0016BE5E /* text3ViewController.swift */,
+				00AD6AD022BC01A50016BE5E /* text4ViewController.swift */,
+			);
+			path = textViewController;
+			sourceTree = "<group>";
+		};
 		0047CEAE22B277430064B349 = {
 			isa = PBXGroup;
 			children = (
+				0027D505232C8B2800F3EE0F /* 390214194mp4.mp4 */,
 				0047CEB922B277430064B349 /* nakayamasou2 */,
 				0047CEB822B277430064B349 /* Products */,
 				3188D41249052AAC69F9E649 /* Pods */,
@@ -83,17 +114,21 @@
 				0047CEBC22B277430064B349 /* FirstViewController.swift */,
 				0047CEBE22B277430064B349 /* SecondViewController.swift */,
 				0047CEC022B277430064B349 /* Main.storyboard */,
+				002265042338CACD005AFE66 /* EatSubViewController.swift */,
+				0022650C2349F3CC005AFE66 /* UIView.xib */,
+				00B3B6D7234A305B00C84273 /* XibView.swift */,
 				0047CEC322B277450064B349 /* Assets.xcassets */,
+				0027D501232BDB4300F3EE0F /* SettingTableViewController.swift */,
+				0027D4FD232A718B00F3EE0F /* ViewController.swift */,
 				0047CEC522B277450064B349 /* LaunchScreen.storyboard */,
 				0047CEC822B277450064B349 /* Info.plist */,
 				00E0526522B68EDD0041D058 /* MainViewController.swift */,
 				0053B14A22B737DB007A1AD4 /* TabViewController.swift */,
 				00FF076622B8B1180031A67A /* numberViewController.swift */,
-				00AD6ACA22BBDFE30016BE5E /* textViewController.swift */,
-				00AD6ACC22BBE43A0016BE5E /* text2ViewController.swift */,
-				00AD6ACE22BBE44F0016BE5E /* text3ViewController.swift */,
-				00AD6AD022BC01A50016BE5E /* text4ViewController.swift */,
+				0009CD482326910E00E0F9EB /* CollectionViewController.swift */,
+				002265082338D30B005AFE66 /* EatCollectionViewController.swift */,
 				B43D889022BF006E00BBFF0F /* goolemapViewController.swift */,
+				00032073232A251300C39491 /* textViewController */,
 			);
 			path = nakayamasou2;
 			sourceTree = "<group>";
@@ -101,6 +136,7 @@
 		06C8B451CA174120223582E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0027D4FF232BDAC500F3EE0F /* MessageUI.framework */,
 				495C9A9251AEA635BCAAAA9B /* Pods_nakayamasou2.framework */,
 			);
 			name = Frameworks;
@@ -153,7 +189,7 @@
 				};
 			};
 			buildConfigurationList = 0047CEB222B277430064B349 /* Build configuration list for PBXProject "nakayamasou2" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -175,6 +211,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0027D506232C8B2800F3EE0F /* 390214194mp4.mp4 in Resources */,
+				0022650D2349F3CC005AFE66 /* UIView.xib in Resources */,
 				0047CEC722B277450064B349 /* LaunchScreen.storyboard in Resources */,
 				0047CEC422B277450064B349 /* Assets.xcassets in Resources */,
 				0047CEC222B277430064B349 /* Main.storyboard in Resources */,
@@ -230,13 +268,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0027D502232BDB4300F3EE0F /* SettingTableViewController.swift in Sources */,
+				0009CD492326910E00E0F9EB /* CollectionViewController.swift in Sources */,
 				00AD6AD122BC01A50016BE5E /* text4ViewController.swift in Sources */,
+				002265092338D30B005AFE66 /* EatCollectionViewController.swift in Sources */,
 				00AD6ACF22BBE44F0016BE5E /* text3ViewController.swift in Sources */,
+				00B3B6D8234A305B00C84273 /* XibView.swift in Sources */,
 				0047CEBF22B277430064B349 /* SecondViewController.swift in Sources */,
 				0047CEBB22B277430064B349 /* AppDelegate.swift in Sources */,
+				002265052338CACD005AFE66 /* EatSubViewController.swift in Sources */,
 				00AD6ACD22BBE43A0016BE5E /* text2ViewController.swift in Sources */,
 				0047CEBD22B277430064B349 /* FirstViewController.swift in Sources */,
 				B43D889122BF006E00BBFF0F /* goolemapViewController.swift in Sources */,
+				0027D4FE232A718B00F3EE0F /* ViewController.swift in Sources */,
 				0053B14B22B737DB007A1AD4 /* TabViewController.swift in Sources */,
 				00E0526622B68EDD0041D058 /* MainViewController.swift in Sources */,
 				00AD6ACB22BBDFE30016BE5E /* textViewController.swift in Sources */,
@@ -375,6 +419,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -387,6 +432,7 @@
 			baseConfigurationReference = 2CF187FF5661DD89942EB538 /* Pods-nakayamasou2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G49892CF4;
 				INFOPLIST_FILE = nakayamasou2/Info.plist;
@@ -397,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.nakayamasou2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -406,6 +452,7 @@
 			baseConfigurationReference = B6C4A25C43EC9B1F0E03DA8C /* Pods-nakayamasou2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G49892CF4;
 				INFOPLIST_FILE = nakayamasou2/Info.plist;
@@ -416,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.nakayamasou2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
